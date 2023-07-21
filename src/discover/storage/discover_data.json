@@ -2,28 +2,98 @@
     {
         "items": [
             {
-                "description": "Open generative art NFT platform on Tezos",
-                "projectURL": "https://www.fxhash.xyz",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash-discover/raw",
-                "title": "fx Hash"
+                "title": "McLaren Racing Digital Collectibles",
+                "categories": [
+                    "sports",
+                    "collectibles"
+                ],
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mclaren-thumbnail2/raw",
+                "projectURL": "https://collectibles.mclaren.com",
+                "description": "McLaren Racing's officially licensed Digital Collectibles"
             },
             {
-                "description": "A fun and interactive digital collectible experience",
-                "projectURL": "https://www.gap.com/nft",
+                "title": "Manchester United",
+                "categories": [
+                    "sports",
+                    "collectibles"
+                ],
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mufc/raw",
+                "projectURL": "http://collectibles.manutd.com",
+                "description": "Officially licensed Digital Collectibles, powered by Tezos"
+            },
+            {
+                "title": "FloRacing Digital Collectibles",
+                "categories": [
+                    "sports",
+                    "collectibles"
+                ],
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/FloSports/raw",
+                "projectURL": "https://collectibles.flosports.tv/",
+                "description": "FloSports' officially licensed Digital Collectibles, powered by Tezos and brought to you by Tezos ecosystem companies"
+            },
+            {
+                "title": "Gap Threads",
+                "categories": [
+                    "sports",
+                    "collectibles"
+                ],
                 "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/gap_600x600/raw",
-                "title": "Gap Threads"
+                "projectURL": "https://www.gap.com/nft",
+                "description": "A fun and interactive digital collectible experience"
+            }
+        ],
+        "title": "Featured"
+    },
+    {
+        "items": [
+            {
+                "title": "objkt",
+                "categories": "marketplace",
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/objktcom/raw",
+                "projectURL": "https://objkt.com/",
+                "description": "The best Tezos NFTs all in one place"
             },
             {
-                "description": "Have fun exploring a galaxy of NFTs",
-                "projectURL": "https://mooncakes.fun",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mooncakes/raw",
-                "title": "Mooncakes"
+                "title": "fxhash",
+                "categories": "marketplace",
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash/raw",
+                "projectURL": "https://www.fxhash.xyz",
+                "description": "Open generative art NFT platform on Tezos"
             },
             {
-                "description": "Have fun exploring a galaxy of NFTs",
-                "projectURL": "https://dogami.com",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/dogami-thumbnail/raw",
-                "title": "Dogamí"
+                "title": "Teia",
+                "categories": "marketplace",
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/teia-thumbnail/raw",
+                "projectURL": "https://teia.art",
+                "description": "Community owned, artist friendly Marketplace"
+            },
+            {
+                "title": "Versum",
+                "categories": "marketplace",
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/versum/raw",
+                "projectURL": "https://versum.xyz/",
+                "description": "NFT Marketplace focused on organic content and curation."
+            },
+            {
+                "title": "Rarible",
+                "categories": "marketplace",
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/rarible/raw",
+                "projectURL": "https://rarible.com/",
+                "description": "Aggregated NFT marketplace with rewards"
+            },
+            {
+                "title": "akaSwap",
+                "categories": "marketplace",
+                "thumbnailUri": "https://camo.githubusercontent.com/bfc814a15bb18933dccb931b5fc50e59d86ef67627ce54900a5139484ce9ba1d/68747470733a2f2f616b61737761702e636f6d2f6c6f676f2f6f672d696d6167652e6a7067",
+                "projectURL": "https://akaswap.com/",
+                "description": "akaSwap is a friendly, open and green NFT platform based on Tezos, everyone can easily create, trade, and collect various NFT from all over the world."
+            },
+            {
+                "title": "8bidou",
+                "categories": "marketplace",
+                "thumbnailUri": "https://i0.wp.com/gatherart.org/wp-content/uploads/2022/03/8bidoubanner.jpg?resize=960%2C320&ssl=1",
+                "projectURL": "https://www.8bidou.com/",
+                "description": "The on-chain bitmap minter & marketplace"
             }
         ],
         "title": "Marketplaces"
@@ -31,28 +101,46 @@
     {
         "items": [
             {
-                "description": "Open generative art NFT platform on Tezos",
-                "projectURL": "https://www.fxhash.xyz",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash-discover/raw",
-                "title": "fx Hash"
+                "title": "Quipuswap",
+                "categories": "exchange",
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/quipuswap_logo/raw",
+                "projectURL": "https://quipuswap.com/",
+                "description": "A decentralized exchange on Tezos"
             },
             {
-                "description": "A fun and interactive digital collectible experience",
-                "projectURL": "https://www.gap.com/nft",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/gap_600x600/raw",
-                "title": "Gap Threads"
+                "title": "Plenty",
+                "categories": "exchange",
+                "thumbnailUri": "https://dashboard-assets.dappradar.com/document/7443/plenty-dapp-defi-tezos-logo-166x166_cd181027cb01f2a5e52fd492c88afab4.png",
+                "projectURL": "https://plenty.network/",
+                "description": "A user-friendly, open source, & decentralized ecosystem built for you"
             },
             {
-                "description": "Have fun exploring a galaxy of NFTs",
-                "projectURL": "https://mooncakes.fun",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mooncakes/raw",
-                "title": "Mooncakes"
+                "title": "Crunchy",
+                "categories": "exchange",
+                "thumbnailUri": "https://spotlight.tezos.com/content/images/2022/10/crunchy.jpg",
+                "projectURL": "https://crunchy.network/#/",
+                "description": "View charts and price data on cryptocurrencies in the Tezos ecosystem"
             },
             {
-                "description": "Have fun exploring a galaxy of NFTs",
-                "projectURL": "https://dogami.com",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/dogami-thumbnail/raw",
-                "title": "Dogamí"
+                "title": "3Route",
+                "categories": "exchange",
+                "thumbnailUri": "https://icoholder.com/files/img/5b9928e154ab7b13890aba8f7a4e58a3.png",
+                "projectURL": "https://3route.io/",
+                "description": "The Next Gen DEX Aggregator in Tezos. Use liquidity from most popular Tezos DEXes from one interface."
+            },
+            {
+                "title": "youves",
+                "categories": "exchange",
+                "thumbnailUri": "https://youves.com/wp-content/uploads/2023/03/uxtz.svg",
+                "projectURL": "https://youves.com/",
+                "description": "Your tool on Tezos for asset creation and management"
+            },
+            {
+                "title": "Vortex",
+                "categories": "exchange",
+                "thumbnailUri": "https://dashboard-assets.dappradar.com/document/7516/vortex-dapp-defi-tezos-logo-166x166_f7fadc1cd728ee02af674ef5ae14c3b0.png",
+                "projectURL": "https://app.vortex.network/",
+                "description": "Vortex is an all-in-one decentralized finance protocol built on the Tezos blockchain."
             }
         ],
         "title": "DeFi"
@@ -60,28 +148,39 @@
     {
         "items": [
             {
-                "description": "Open generative art NFT platform on Tezos",
-                "projectURL": "https://www.fxhash.xyz",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash-discover/raw",
-                "title": "fx Hash"
-            },
-            {
-                "description": "A fun and interactive digital collectible experience",
-                "projectURL": "https://www.gap.com/nft",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/gap_600x600/raw",
-                "title": "Gap Threads"
-            },
-            {
-                "description": "Have fun exploring a galaxy of NFTs",
-                "projectURL": "https://mooncakes.fun",
+                "title": "Mooncakes",
+                "categories": "collectibles",
                 "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mooncakes/raw",
-                "title": "Mooncakes"
+                "projectURL": "https://mooncakes.fun",
+                "description": "Have fun exploring a galaxy of NFTs"
             },
             {
-                "description": "Have fun exploring a galaxy of NFTs",
-                "projectURL": "https://dogami.com",
+                "title": "Dogami",
+                "categories": "collectibles",
                 "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/dogami-thumbnail/raw",
-                "title": "Dogamí"
+                "projectURL": "https://dogami.com",
+                "description": "Raise unique virtual NFT avatars on mobile"
+            },
+            {
+                "title": "Tezotopia",
+                "categories": "collectibles",
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/tezotopia/raw",
+                "projectURL": "https://app.tezotopia.com/marketplace/artifacts",
+                "description": "Battle, earn, win prizes plus NFT yield farming"
+            },
+            {
+                "title": "Stables",
+                "categories": "collectibles",
+                "thumbnailUri": "https://pbs.twimg.com/profile_images/1521585807751999488/c4J5196O_400x400.jpg",
+                "projectURL": "https://www.playstables.io/",
+                "description": "Join the exciting world of Stables, a horse fantasy game powered by NFT technology and real racehorses"
+            },
+            {
+                "title": "V.Hive by Vitality",
+                "categories": "collectibles",
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/vitality/raw",
+                "projectURL": "https://vhive.vitality.gg/",
+                "description": "Hive aims to be the first support-to-earn system in esports for the widest audience with a free and easy to understand platform, opening new fan experience opportunities."
             }
         ],
         "title": "Games"
@@ -89,28 +188,39 @@
     {
         "items": [
             {
-                "description": "Open generative art NFT platform on Tezos",
-                "projectURL": "https://www.fxhash.xyz",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash-discover/raw",
-                "title": "fx Hash"
+                "title": "zancan",
+                "categories": "art",
+                "thumbnailUri": "https://assets.objkt.media/file/assets-003/f7fa6102062cda432f7a43064c8b72397ac3347e/thumb120",
+                "projectURL": "https://zancan.art/",
+                "description": "Generative artist, former painter, night owl 🌿Lushtemples series ☾ Stills From Last Night series 🪨 Garden, Monoliths"
             },
             {
-                "description": "A fun and interactive digital collectible experience",
-                "projectURL": "https://www.gap.com/nft",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/gap_600x600/raw",
-                "title": "Gap Threads"
+                "title": "williamapan",
+                "categories": "art",
+                "thumbnailUri": "https://assets.objkt.media/file/assets-003/06178721df4edd39e1658c82b7b5c06eb4711adb/thumb120",
+                "projectURL": "https://twitter.com/williamapan",
+                "description": "Analog, digital & generative artist"
             },
             {
-                "description": "Have fun exploring a galaxy of NFTs",
-                "projectURL": "https://mooncakes.fun",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mooncakes/raw",
-                "title": "Mooncakes"
+                "title": "Iskra Velitchkova",
+                "categories": "art",
+                "thumbnailUri": "https://services.tzkt.io/v1/avatars2/tz1gVKxpEGC7QW1fZyEEMEW2kgJRbpgWLNpD",
+                "projectURL": "http://iskraovelitchkova.com/",
+                "description": "Generative Artist"
             },
             {
-                "description": "Have fun exploring a galaxy of NFTs",
-                "projectURL": "https://dogami.com",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/dogami-thumbnail/raw",
-                "title": "Dogamí"
+                "title": "jjjjjohn",
+                "categories": "art",
+                "thumbnailUri": "https://services.tzkt.io/v1/avatars2/tz1iZ2TPEShFC8TqHsXLA9RXdV7tSv8E3aLe",
+                "projectURL": "https://twitter.com/jjjjjjjjjjohn",
+                "description": "skeleton gifs, etc"
+            },
+            {
+                "title": "Lucrece",
+                "categories": "art",
+                "thumbnailUri": "https://assets.objkt.media/file/assets-003/b1d66b681b6858674b931b02fe564a7267f5f26c/thumb120",
+                "projectURL": "https://discord.gg/lucrece",
+                "description": "Norwegian-born Vietnamese visual artist based in the US. Because life is about chasing Coke Zero™"
             }
         ],
         "title": "Art"
@@ -118,59 +228,71 @@
     {
         "items": [
             {
-                "description": "Open generative art NFT platform on Tezos",
-                "projectURL": "https://www.fxhash.xyz",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash-discover/raw",
-                "title": "fx Hash"
+                "title": "Tezzardz",
+                "categories": "collectibles",
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/tezzardz/raw",
+                "projectURL": "https://www.tezzardz.xyz/",
+                "description": "Tezzardz is a collection of programmatically, randomly generated snazzy little buggers on the Tezos blockchain. Each and every one of them is is unique and illustrated by hand."
             },
             {
-                "description": "A fun and interactive digital collectible experience",
-                "projectURL": "https://www.gap.com/nft",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/gap_600x600/raw",
-                "title": "Gap Threads"
+                "title": "Ziggurats",
+                "categories": [
+                    "collectibles",
+                    "music"
+                ],
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/ziggurats/raw",
+                "projectURL": "https://ziggurats.xyz",
+                "description": "Generative mixtape + art by Mike Shinoda"
             },
             {
-                "description": "Have fun exploring a galaxy of NFTs",
-                "projectURL": "https://mooncakes.fun",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mooncakes/raw",
-                "title": "Mooncakes"
+                "title": "Neonz",
+                "categories": "collectibles",
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/neonz/raw",
+                "projectURL": "https://www.neonz.xyz/",
+                "description": "NEONZ is the portfolio website for Australian Artist Sutu. Sutu is an XR Artist, Futurist, and Co-Founder of the AR company, EyeJack."
             },
             {
-                "description": "Have fun exploring a galaxy of NFTs",
-                "projectURL": "https://dogami.com",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/dogami-thumbnail/raw",
-                "title": "Dogamí"
+                "title": "Ottez",
+                "categories": "collectibles",
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/ottez/raw",
+                "projectURL": "https://www.ottez.xyz/",
+                "description": "Humans are gone. Ottez have moved in. 4,007 generative, collectible PFP otters have taken over Earth."
             }
         ],
-        "title": "Sports"
+        "title": "PFP/Collectibles"
     },
     {
         "items": [
             {
-                "description": "Open generative art NFT platform on Tezos",
-                "projectURL": "https://www.fxhash.xyz",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash-discover/raw",
-                "title": "fx Hash"
+                "title": "OneOf",
+                "categories": "music",
+                "thumbnailUri": "https://about.oneof.com/wp-content/uploads/2022/02/oneof-logo-102422.svg",
+                "projectURL": "https://www.oneof.com/marketplacehome",
+                "description": "OneOf is the mass-consumer Web3 company connecting the next 100M non-crypto-native fans to iconic brands, artists, and athletes. OneOf technology enables global brands and enterprises to reimagine commerce, loyalty and engagement, allowing consumers to seamlessly collect or trade digital assets with no prior crypto expertise. Deeply committed to a sustainable and inclusive blockchain future, minting digital assets on OneOf&#039;s platform uses up to 2 million times less energy than previous generation proof-of-work networks, and costs up to 99% less in gas fees. A leader in diversity, over 80% of the collections curated by OneOf come from minority or female creators."
             },
             {
-                "description": "A fun and interactive digital collectible experience",
-                "projectURL": "https://www.gap.com/nft",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/gap_600x600/raw",
-                "title": "Gap Threads"
-            },
-            {
-                "description": "Have fun exploring a galaxy of NFTs",
-                "projectURL": "https://mooncakes.fun",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mooncakes/raw",
-                "title": "Mooncakes"
-            },
-            {
-                "description": "Have fun exploring a galaxy of NFTs",
-                "projectURL": "https://dogami.com",
-                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/dogami-thumbnail/raw",
-                "title": "Dogamí"
+                "title": "Ziggurats",
+                "categories": [
+                    "collectibles",
+                    "music"
+                ],
+                "thumbnailUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/ziggurats/raw",
+                "projectURL": "https://ziggurats.xyz",
+                "description": "Generative mixtape + art by Mike Shinoda"
             }
         ],
         "title": "Music"
+    },
+    {
+        "items": [
+            {
+                "title": "Tezos Domains",
+                "categories": "tools",
+                "thumbnailUri": "https://d33wubrfki0l68.cloudfront.net/5c38e6c562ae78abd4114db5d484ea7a88eb50eb/587d0/static/td-logo01-bright.d539d312.svg",
+                "projectURL": "https://tezos.domains/",
+                "description": "Tezos names are FA2-compliant NFTs which you own and control. Just like cryptocurrency, your names are stored securely in your wallet and only you can manage and move them."
+            }
+        ],
+        "title": "Tools/Identity"
     }
 ]
