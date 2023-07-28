@@ -3,7 +3,8 @@
         "name": "McLaren Racing Digital Collectibles",
         "contractAddresses": [
             "KT1PEGqt5rMmHpyaMXc8RFTFkkAUDrzSFRWk",
-            "KT1BRADdqGk2eLmMqvyWzqVmPQ1RCBCbW5dY"
+            "KT1BRADdqGk2eLmMqvyWzqVmPQ1RCBCbW5dY",
+            "KT1QgfSE4C1dX9UqrPAXjUaFQ36F9eB4nNkV"
         ],
         "description": "McLaren Racing's officially licensed Digital Collectibles",
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mclaren-thumbnail2/raw",
@@ -26,7 +27,8 @@
             "KT1XNJ67F3JN2cmq6s1LmqtVg7gy9tCcN4E2",
             "KT1NjcoGPVVbY8QE4TTRQ4Lupu3Uu3eETZ3p",
             "KT1AxhmvtycdsMjDTEfSmgyduMartH32Nhp2",
-            "KT1UidJGfFQBhyufakh5PNc13i5t67jA4cvx"
+            "KT1UidJGfFQBhyufakh5PNc13i5t67jA4cvx",
+            "KT1GUnPCc3zQq6oshCh91nmnfTvhiWFj6Qci"
         ],
         "description": "Officially licensed Digital Collectibles, powered by Tezos",
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mufc/raw",
@@ -38,6 +40,24 @@
             ],
             "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mufc-discover/raw",
             "hasZoomDiscoverImage": true
+        }
+    },
+    "FloSports": {
+        "name": "FloSports",
+        "contractAddresses": [
+            "KT1SQFuskMGQB7arqvQyuCH9v2utbJNmGcR6",
+            "KT1QN8oJodP3uuFu5VbciZFhLQSReyAMpGtT"
+        ],
+        "description": "FloSports Digital Collectibles",
+        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/FloSports/raw",
+        "discover": {
+            "dappUrl": "https://collectibles.flosports.tv",
+            "category": [
+                "sports",
+                "collectibles"
+            ],
+            "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/b41dc43c-0b59-4c98-624e-51f44cc2b400/raw",
+            "hasZoomDiscoverImage": false
         }
     },
     "EmergentsTCG": {
@@ -79,6 +99,22 @@
         "description": "A next-gen superhero trading card game",
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/emergents/raw"
     },
+    "gap": {
+        "name": "Gap Threads",
+        "contractAddresses": [
+            "KT1GA6KaLWpURnjvmnxB4wToErzM2EXHqrMo"
+        ],
+        "description": "A fun and interactive digital collectible experience",
+        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/gap_600x600/raw",
+        "discover": {
+            "dappUrl": "https://www.gap.com/nft",
+            "category": [
+                "collectibles"
+            ],
+            "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/gap-discover/raw",
+            "hasZoomDiscoverImage": false
+        }
+    },
     "dogami": {
         "name": "Dogamí",
         "contractAddresses": [
@@ -98,23 +134,6 @@
             "hasZoomDiscoverImage": true
         }
     },
-    "gap": {
-        "name": "Gap Threads",
-        "contractAddresses": [
-            "KT1GA6KaLWpURnjvmnxB4wToErzM2EXHqrMo"
-        ],
-        "description": "A fun and interactive digital collectible experience",
-        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/gap_600x600/raw",
-        "discover": {
-            "dappUrl": "https://www.gap.com/nft",
-            "category": [
-                "collectibles"
-            ],
-            "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/gap-discover/raw",
-            "hasZoomDiscoverImage": false,
-            "backgroundColor": "black"
-        }
-    },
     "fxhash": {
         "name": "fxhash",
         "contractAddresses": [
@@ -129,8 +148,7 @@
                 "marketplace"
             ],
             "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash-discover/raw",
-            "hasZoomDiscoverImage": true,
-            "backgroundColor": "black"
+            "hasZoomDiscoverImage": true
         }
     },
     "UbisoftQuartz": {
@@ -147,8 +165,7 @@
                 "collectibles"
             ],
             "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/logoquartz-h-white-color-beta-discover/raw",
-            "hasZoomDiscoverImage": false,
-            "backgroundColor": "black"
+            "hasZoomDiscoverImage": false
         }
     },
     "mooncakes": {
@@ -165,8 +182,7 @@
                 "collectibles"
             ],
             "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mooncakes-discover/raw",
-            "hasZoomDiscoverImage": true,
-            "backgroundColor": "#1C1C20"
+            "hasZoomDiscoverImage": true
         }
     },
     "vitality": {
@@ -194,8 +210,7 @@
                 "collectibles"
             ],
             "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/oneof-discover/raw",
-            "hasZoomDiscoverImage": false,
-            "backgroundColor": "#000"
+            "hasZoomDiscoverImage": false
         }
     },
     "Verses": {
@@ -205,6 +220,13 @@
         ],
         "description": "Collect the Art. Play the Game.",
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/verses/raw"
+    },
+    "admire": {
+        "name": "admire.art",
+        "contractAddresses": [
+            "KT1BwT3wswFc9G9iTxwoorb9ox8MFs54BUck"
+        ],
+        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/1749a4eb-8a32-466f-2a55-8bdb03bc4f00/raw"
     },
     "ZIGGURATS": {
         "name": "ZIGGURATS",
@@ -219,8 +241,7 @@
                 "collectibles"
             ],
             "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/ziggurats-discover/raw",
-            "hasZoomDiscoverImage": false,
-            "backgroundColor": "#000"
+            "hasZoomDiscoverImage": false
         }
     },
     "randomlycommonskeles": {
@@ -276,8 +297,7 @@
                 "exchange"
             ],
             "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/quipuswap-discover/raw",
-            "hasZoomDiscoverImage": false,
-            "backgroundColor": "#222d47"
+            "hasZoomDiscoverImage": false
         }
     },
     "Objkt": {
@@ -307,8 +327,7 @@
                 "identity"
             ],
             "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/tezosdomains-discover/raw",
-            "hasZoomDiscoverImage": false,
-            "backgroundColor": "#f1f4f8"
+            "hasZoomDiscoverImage": false
         }
     },
     "InterpopComics": {
@@ -536,13 +555,6 @@
         ],
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/VERSA/raw"
     },
-    "FloSports": {
-        "name": "FloSports",
-        "contractAddresses": [
-            "KT1SQFuskMGQB7arqvQyuCH9v2utbJNmGcR6"
-        ],
-        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/FloSports/raw"
-    },
     "RichieHawtin": {
         "name": "Richie Hawtin - Proof of Performance",
         "contractAddresses": [
@@ -731,6 +743,7 @@
         "contractAddresses": [
             "KT1U1GDQDE7C9DNfE9iSojsKfWf5zUXdSVde"
         ],
+        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/b1385e31-a46c-435c-f0ce-9e672faf1a00/raw",
         "description": "An eclectic kaleidoscope: alien cultists, scifi loving tech heads, old earth culture pilfering retronauts and flamboyant gang members."
     },
     "FCOREBOLLO": {
@@ -861,6 +874,7 @@
             "KT1Lz7Jd6Sh1zUE66nDGS7hGnjwcyTBCiYbF",
             "KT1D1XtWFoQDPtuYzbkeRJhcDgH6CDem2FkZ"
         ],
+        "description": "",
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/bluevishnu/raw"
     },
     "Pantone": {
@@ -868,6 +882,7 @@
         "contractAddresses": [
             "KT1AjuZb9TZTastAzhbufGsYG7vVNADUFmue"
         ],
+        "description": "",
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/pantone-very-peri/raw"
     },
     "FILMCrew": {
@@ -899,6 +914,7 @@
         "contractAddresses": [
             "KT1Fezth36inWMKtTh8Rt6NaQSM1im5LwP4T"
         ],
+        "description": "",
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/tezos_blue_bg/raw"
     },
     "GJOE": {
@@ -960,6 +976,13 @@
             "KT1QWtzjPpCZ7mpDdC5YxUszY1897d6JMJws"
         ],
         "thumbnailImageUrl": "ipfs://QmaSjSstwf5YTqQ7aMK2cNQBVLh4XdnZu4h1kaPJdusj8G"
+    },
+    "sowvital": {
+        "name": "Sowvital’s Metavert: AI-Generated Flowers",
+        "contractAddresses": [
+            "KT1CGo4LNtDyKUZe4NU1UrCTMxdqogS9tWwM"
+        ],
+        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/a41b35e3-167e-4c98-9e25-b24da95d7b00/raw"
     },
     "XQST": {
         "name": "XQST",
