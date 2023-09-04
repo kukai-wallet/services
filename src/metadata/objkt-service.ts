@@ -25,6 +25,7 @@ export async function appendMetadata(data: any[]) {
     const promises = []
     const requests = new Map()
     const metadataMap = new Map()
+    const editionsMap = new Map()
 
     for (const [contract, tokenIds] of contractToTokenMap.entries()) {
         if (!USE_OBJKT_FOR_CONTRACTS.has(contract)) {
@@ -41,8 +42,12 @@ export async function appendMetadata(data: any[]) {
 
         let index = 0
         for (const [contract, tokenIds] of requests) {
+            const { data } = results[index]
 
-            const metadataForTokenIds = results[index].data.token.map((o: any) => o?.artifact_uri)
+            const metadataForTokenIds = data.token
+            const editions = data.fa?.[0]?.editions
+
+            editionsMap.set(contract, editions)
             tokenIds.forEach((tokenId: string, index: number) => {
                 metadataMap.set(`${contract}/${tokenId}`, metadataForTokenIds[index])
             });
@@ -53,11 +58,23 @@ export async function appendMetadata(data: any[]) {
         const appendedMetadata = [...data]
 
         appendedMetadata.forEach(item => {
-            const key = `${item.token?.contract?.address}/${item.token?.tokenId}`
-            const artifactUri = metadataMap.get(key)
+            const contract = item.token?.contract?.address
+            const tokenId = item.token?.tokenId
 
-            if (artifactUri) {
-                item.token.metadata = { ...item.token.metadata, artifactUri }
+            const key = `${contract}/${tokenId}`
+            const objktMetadata = metadataMap.get(key)
+            const editionsInContract = editionsMap.get(contract)
+
+            const artifactUri = objktMetadata.artifact_uri
+            const attributes = (objktMetadata.attributes || []).map(({ attribute }: any) => ({
+                name: attribute.name,
+                value: attribute.value,
+                frequency: (attribute?.attribute_counts?.[0]?.editions || 0) / editionsInContract
+            }))
+
+
+            if (objktMetadata) {
+                item.token.metadata = { ...item.token.metadata, artifactUri, attributes }
             }
         });
 
