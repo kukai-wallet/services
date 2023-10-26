@@ -2,39 +2,26 @@ name = "services"
 main = "src/worker.ts"
 compatibility_date = "2023-07-19"
 
-# # KV Namespace binding - For more information: https://developers.cloudflare.com/workers/runtime-apis/kv
-# [[kv_namespaces]]
-# binding = "MY_KV_NAMESPACE"
-# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+[env.dev]
+vars = { ENVIRONMENT = "dev" }
+kv_namespaces = [
+  { binding = "KV_STORAGE", id="97b856b1d93d4d079eced23566c5b74e", preview_id = "97b856b1d93d4d079eced23566c5b74e" }
+]
 
-# # Durable Object binding - For more information: https://developers.cloudflare.com/workers/runtime-apis/durable-objects
-# [[durable_objects]]
-# binding = "MY_DURABLE_OBJECT"
-# class_name = "MyDurableObject"
+[env.staging]
+vars = { ENVIRONMENT = "staging" }
+routes = [
+	{ pattern = "staging.services.kukai.app", custom_domain = true }
+]
+kv_namespaces = [
+  { binding = "KV_STORAGE", id = "8f11ab73a52f4708a5497dc4570ef486" }
+]
 
-# # Bucket binding - For more information: https://developers.cloudflare.com/workers/runtime-apis/kv#bucket
-# [[buckets]]
-# binding = "MY_BUCKET"
-# name = "my-bucket"
-# bucket_id = "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
-
-# # Service binding - For more information: https://developers.cloudflare.com/workers/platform/services
-# [[routes]]
-# binding = "MY_SERVICE"
-# pattern = "/api/*"
-# script = "api.js"
-
-# # Queue binding - For more information: https://developers.cloudflare.com/workers/runtime-apis/queues
-# [[queues]]
-# binding = "MY_QUEUE"
-# name = "my-queue"
-# zone_id = "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
-
-# [env.production]
-# MY_VARIABLE = "production_value"
-
-# [env.staging]
-# MY_VARIABLE = "staging_value"
-
-# [env.shared]
-# SHARED_VARIABLE = "shared_value"
+[env.production]
+vars = { ENVIRONMENT = "production" }
+routes = [
+	{ pattern = "services.kukai.app", custom_domain = true }
+]
+kv_namespaces = [
+  { binding = "KV_STORAGE", id = "ff97a09fcd72422da9fa2ba7d8bcdd6e" }
+]
