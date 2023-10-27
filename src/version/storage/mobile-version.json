@@ -1,0 +1,10 @@
+{
+    "ios": {
+        "required": "1.0.0.180",
+        "recommended": "1.0.0.190"
+    },
+    "android": {
+        "required": "1.0.1.183",
+        "recommended": "1.0.1.190"
+    }
+}

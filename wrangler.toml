@@ -4,24 +4,15 @@ compatibility_date = "2023-07-19"
 
 [env.dev]
 vars = { ENVIRONMENT = "dev" }
-kv_namespaces = [
-  { binding = "KV_STORAGE", id="97b856b1d93d4d079eced23566c5b74e", preview_id = "97b856b1d93d4d079eced23566c5b74e" }
-]
 
 [env.staging]
 vars = { ENVIRONMENT = "staging" }
 routes = [
 	{ pattern = "staging.services.kukai.app", custom_domain = true }
 ]
-kv_namespaces = [
-  { binding = "KV_STORAGE", id = "8f11ab73a52f4708a5497dc4570ef486" }
-]
 
 [env.production]
 vars = { ENVIRONMENT = "production" }
 routes = [
 	{ pattern = "services.kukai.app", custom_domain = true }
-]
-kv_namespaces = [
-  { binding = "KV_STORAGE", id = "ff97a09fcd72422da9fa2ba7d8bcdd6e" }
 ]
