@@ -10,6 +10,12 @@ export const REMAP: Record<string, string> = {
     contractAddress: 'contractAddresses',
 }
 
+const HEADERS = {
+    "content-type": "application/json;charset=UTF-8",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
+}
+
 export async function handleExpore(request: Request, _env: Env, _ctx: ExecutionContext): Promise<Response> {
     try {
         const params = getParams(request.url)
@@ -36,7 +42,7 @@ export async function handleExpore(request: Request, _env: Env, _ctx: ExecutionC
 
         const responseData = dataset.getSnapshot()
 
-        return new Response(responseData, { status: 200 })
+        return new Response(responseData, { status: 200, headers: HEADERS })
     } catch (error) {
         console.error('Internal error:', error);
         return new Response('Internal Error', { status: 500 })
