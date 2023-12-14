@@ -28,7 +28,10 @@
             "KT1NjcoGPVVbY8QE4TTRQ4Lupu3Uu3eETZ3p",
             "KT1AxhmvtycdsMjDTEfSmgyduMartH32Nhp2",
             "KT1UidJGfFQBhyufakh5PNc13i5t67jA4cvx",
-            "KT1GUnPCc3zQq6oshCh91nmnfTvhiWFj6Qci"
+            "KT1GUnPCc3zQq6oshCh91nmnfTvhiWFj6Qci",
+            "KT1HwhxuoZqKgauNHi9vzShCbvYDESd2dfhv",
+            "KT1LBXXg9UFvyfdvPmRMc4JZQsYWdyPCS6ue",
+            "KT1ASdLCaRrd6tHyssWYDkZKdMm2KrwwbQeN"
         ],
         "description": "Officially licensed Digital Collectibles, powered by Tezos",
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mufc/raw",
@@ -46,7 +49,8 @@
         "name": "FloSports",
         "contractAddresses": [
             "KT1SQFuskMGQB7arqvQyuCH9v2utbJNmGcR6",
-            "KT1QN8oJodP3uuFu5VbciZFhLQSReyAMpGtT"
+            "KT1QN8oJodP3uuFu5VbciZFhLQSReyAMpGtT",
+            "KT1AEdwKNAzEA1g2jLjeJVVYCSZaj8qRCwpU"
         ],
         "description": "FloSports Digital Collectibles",
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/FloSports/raw",
@@ -361,6 +365,14 @@
         ],
         "description": "Unique colors as NFT tokens on Tezos",
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/tzcolors/raw"
+    },
+    "BattleTabs": {
+        "name": "Tz Colors",
+        "contractAddresses": [
+            "KT1J13kB3GQBuu9VJv5jsuCXJf6jSQoJjkPf"
+        ],
+        "description": "Battletabs' Digital Collectibles, powered by Tezos and brought to you by Tezos ecosystem companies.",
+        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/433fc989-a276-4cf5-88c0-c8370e47ad00/raw"
     },
     "Tezotopia": {
         "name": "Tezotopia",
