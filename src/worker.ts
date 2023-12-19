@@ -1,13 +1,14 @@
 import { Env } from '../worker-configuration';
 import apiRouter from './router';
+import { VERSIONS } from './utils/versioning';
 
-const BASE_ENDPOINT = '/v1/'
+const ALLOWED_VERSIONS = new Set<string>([VERSIONS.V1, VERSIONS.V2])
 
 export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
 		const url = new URL(request.url);
 
-		if (url.pathname.startsWith(BASE_ENDPOINT)) {
+		if (ALLOWED_VERSIONS.has(url.pathname.substring(0, 4))) {
 			return apiRouter.handle(request, env, ctx)
 		}
 

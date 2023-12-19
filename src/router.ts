@@ -8,6 +8,7 @@ import { handleProxy } from './proxy/handle-proxy';
 export enum ROUTES {
 	DISCOVER = '/v1/discover',
 	EXPLORE = '/v1/explore',
+	EXPLORE_V2 = '/v2/explore',
 	METADATA = '/v1/metadata/*',
 	PROXY = '/v1/proxy',
 	VERSION = '/v1/version',
@@ -17,6 +18,7 @@ const router = Router();
 
 router.get(ROUTES.DISCOVER, handleDiscover as unknown as RouteHandler)
 router.get(ROUTES.EXPLORE, handleExpore as unknown as RouteHandler)
+router.get(ROUTES.EXPLORE_V2, handleExpore as unknown as RouteHandler)
 router.get(ROUTES.METADATA, handleMetadata as unknown as RouteHandler)
 router.get(ROUTES.PROXY, handleProxy as unknown as RouteHandler)
 router.get(ROUTES.VERSION, handleVersion as unknown as RouteHandler)

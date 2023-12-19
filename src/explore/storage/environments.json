@@ -1,0 +1,19 @@
+{
+    "mainnet": {
+        "blockList": [
+            "KT18j785rB3G4wXxEpqwwG2hJ2iZrjLAbeo7",
+            "KT1R8w6v13wt3yTeYUMxfZAWi7yXdNHepKHd",
+            "KT1WxUwHH1Ph7Gx6Ku7YLEfXh4przNGtMGqK"
+        ],
+        "model3DAllowList": [
+            "KT1NVvPsNDChrLRH5K2cy6Sc9r1uuUwdiZQd",
+            "KT1AWoUQAuUudqpc75cGukWufbfim3GRn8h6",
+            "KT1Lz7Jd6Sh1zUE66nDGS7hGnjwcyTBCiYbF",
+            "KT1D1XtWFoQDPtuYzbkeRJhcDgH6CDem2FkZ"
+        ]
+    },
+    "ghostnet": {
+        "blockList": [],
+        "model3DAllowList": []
+    }
+}

@@ -1,4 +1,5 @@
 import { Env } from '../../worker-configuration'
+import { VERSIONS } from '../utils/versioning'
 import { Dataset } from "./storage/dataset"
 
 const ArrayTypes = new Set(['contractAddresses', 'discover.category'])
@@ -19,7 +20,8 @@ const HEADERS = {
 export async function handleExpore(request: Request, _env: Env, _ctx: ExecutionContext): Promise<Response> {
     try {
         const params = getParams(request.url)
-        const dataset = new Dataset()
+        const version = request.url.includes(VERSIONS.V2) ? VERSIONS.V2 : VERSIONS.V1
+        const dataset = new Dataset({ version })
 
         const paramKeys = Object.keys(params)
 
