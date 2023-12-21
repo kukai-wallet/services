@@ -8,14 +8,14 @@ const HEADERS = {
     "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
 }
 
-export async function handleDiscover(request: Request, _env: Env, _ctx: ExecutionContext): Promise<Response> {
+export async function handleDiscover(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
     const version = request.url.includes(VERSIONS.V2) ? VERSIONS.V2 : VERSIONS.V1
     let responsePayload
 
     if (version === VERSIONS.V1) {
         responsePayload = JSON.stringify(discoverData)
     } else {
-        responsePayload = JSON.stringify(makeResponsePayload(JSON.stringify(discoverData), version))
+        responsePayload = JSON.stringify(makeResponsePayload(JSON.stringify(discoverData), version, env))
     }
 
     return new Response(responsePayload, { headers: HEADERS })

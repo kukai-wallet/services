@@ -17,7 +17,7 @@ const HEADERS = {
     "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
 }
 
-export async function handleExpore(request: Request, _env: Env, _ctx: ExecutionContext): Promise<Response> {
+export async function handleExpore(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
     try {
         const params = getParams(request.url)
         const version = request.url.includes(VERSIONS.V2) ? VERSIONS.V2 : VERSIONS.V1
@@ -48,7 +48,7 @@ export async function handleExpore(request: Request, _env: Env, _ctx: ExecutionC
         if (version === VERSIONS.V1) {
             responsePayload = snapshot
         } else {
-            responsePayload = JSON.stringify(makeResponsePayload(snapshot, version))
+            responsePayload = JSON.stringify(makeResponsePayload(snapshot, version, env))
         }
 
         return new Response(responsePayload, { status: 200, headers: HEADERS })
