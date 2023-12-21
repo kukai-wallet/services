@@ -7,9 +7,12 @@
     "dev": "wrangler dev --env dev"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230419.0",
+    "@cloudflare/workers-types": "^4.20231218.0",
     "itty-router": "^3.0.12",
     "typescript": "^5.0.4",
     "wrangler": "^2.19.0"
+  },
+  "dependencies": {
+    "tweetnacl": "^1.0.3"
   }
 }

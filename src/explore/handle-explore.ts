@@ -1,5 +1,5 @@
 import { Env } from '../../worker-configuration'
-import { VERSIONS } from '../utils/versioning'
+import { VERSIONS, makeResponsePayload } from '../utils/versioning'
 import { Dataset } from "./storage/dataset"
 
 const ArrayTypes = new Set(['contractAddresses', 'discover.category'])
@@ -42,9 +42,16 @@ export async function handleExpore(request: Request, _env: Env, _ctx: ExecutionC
                 : dataset.addFilter(o => String(!key1 ? o[key0] : o[key0]?.[key1]) === value.toLowerCase())
         }
 
-        const responseData = dataset.getSnapshot()
+        const snapshot = dataset.getSnapshot()
+        let responsePayload
 
-        return new Response(responseData, { status: 200, headers: HEADERS })
+        if (version === VERSIONS.V1) {
+            responsePayload = snapshot
+        } else {
+            responsePayload = JSON.stringify(makeResponsePayload(snapshot, version))
+        }
+
+        return new Response(responsePayload, { status: 200, headers: HEADERS })
     } catch (error) {
         console.error('Internal error:', error);
         return new Response('Internal Error', { status: 500 })

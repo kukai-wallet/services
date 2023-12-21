@@ -1,4 +1,5 @@
 import { Env } from '../../worker-configuration'
+import { VERSIONS, makeResponsePayload } from '../utils/versioning'
 import discoverData from './storage/discover_data.json'
 
 const HEADERS = {
@@ -8,6 +9,14 @@ const HEADERS = {
 }
 
 export async function handleDiscover(request: Request, _env: Env, _ctx: ExecutionContext): Promise<Response> {
-    const response = JSON.stringify(discoverData, null, 2)
-    return new Response(response, { headers: HEADERS })
+    const version = request.url.includes(VERSIONS.V2) ? VERSIONS.V2 : VERSIONS.V1
+    let responsePayload
+
+    if (version === VERSIONS.V1) {
+        responsePayload = JSON.stringify(discoverData)
+    } else {
+        responsePayload = JSON.stringify(makeResponsePayload(JSON.stringify(discoverData), version))
+    }
+
+    return new Response(responsePayload, { headers: HEADERS })
 }
