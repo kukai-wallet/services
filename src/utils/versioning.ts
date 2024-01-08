@@ -15,6 +15,7 @@ export function makeResponsePayload(payload: any, version: VERSIONS, env: Env) {
 
     return {
         data: JSON.parse(payload),
+        rawData: payload,
         signature,
     }
 }
