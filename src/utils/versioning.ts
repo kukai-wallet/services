@@ -1,5 +1,6 @@
 import { Env } from "../../worker-configuration"
 import { signData } from "./encrypt"
+import { stringToHex } from "./text-utils"
 
 export enum VERSIONS {
     V1 = "/v1/",
@@ -11,11 +12,13 @@ export function makeResponsePayload(payload: any, version: VERSIONS, env: Env) {
         return payload
     }
 
-    const { signature } = signData(payload, env)
+    const hexData = stringToHex(payload)
+
+    const { signature } = signData(hexData, env)
 
     return {
         data: JSON.parse(payload),
-        rawData: payload,
+        hexData,
         signature,
     }
 }
