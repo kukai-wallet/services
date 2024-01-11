@@ -23,7 +23,6 @@ export function makeResponsePayload(payload: any, version: VERSIONS, env: Env, r
 
     if (shouldEncode) {
         encodedData = stringToBase64(encodedData)
-        console.log('after encoding::', encodedData)
         displayData = encodedData
     }
 
