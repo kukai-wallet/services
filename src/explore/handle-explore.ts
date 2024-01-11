@@ -1,4 +1,5 @@
 import { Env } from '../../worker-configuration'
+import { getParams } from '../utils/param-utils'
 import { VERSIONS, makeResponsePayload } from '../utils/versioning'
 import { Dataset } from "./storage/dataset"
 
@@ -23,8 +24,8 @@ export async function handleExpore(request: Request, env: Env, _ctx: ExecutionCo
         const version = request.url.includes(VERSIONS.V2) ? VERSIONS.V2 : VERSIONS.V1
         const dataset = new Dataset({ version })
 
+        delete params.encode
         const paramKeys = Object.keys(params)
-
 
         for (const rawKey of paramKeys) {
             if (rawKey === SHOULD_DISPLAY_LINK_KEY) {
@@ -48,7 +49,7 @@ export async function handleExpore(request: Request, env: Env, _ctx: ExecutionCo
         if (version === VERSIONS.V1) {
             responsePayload = snapshot
         } else {
-            responsePayload = JSON.stringify(makeResponsePayload(snapshot, version, env))
+            responsePayload = JSON.stringify(makeResponsePayload(snapshot, version, env, request.url))
         }
 
         return new Response(responsePayload, { status: 200, headers: HEADERS })
@@ -58,15 +59,3 @@ export async function handleExpore(request: Request, env: Env, _ctx: ExecutionCo
     }
 }
 
-function getParams(requestUrl: string) {
-    const url = new URL(requestUrl)
-
-    const urlParams = new URLSearchParams(url.searchParams)
-    const params: Record<string, string> = {}
-
-    for (const [key, value] of urlParams) {
-        params[key] = value
-    }
-
-    return params
-}

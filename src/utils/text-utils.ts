@@ -1,11 +1,6 @@
-export function stringToHex(input: string) {
-    let hex
-    let result = ""
+// @ts-nocheck
+import { Buffer } from 'node:buffer'
 
-    for (let i = 0; i < input.length; i++) {
-        hex = input.charCodeAt(i).toString(16)
-        result += ("000" + hex).slice(-4)
-    }
-
-    return result
+export function stringToBase64(input: string) {
+    return Buffer.from(input).toString('base64')
 }

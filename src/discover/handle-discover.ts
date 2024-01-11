@@ -15,7 +15,7 @@ export async function handleDiscover(request: Request, env: Env, _ctx: Execution
     if (version === VERSIONS.V1) {
         responsePayload = JSON.stringify(discoverData)
     } else {
-        responsePayload = JSON.stringify(makeResponsePayload(JSON.stringify(discoverData), version, env))
+        responsePayload = JSON.stringify(makeResponsePayload(JSON.stringify(discoverData), version, env, request.url))
     }
 
     return new Response(responsePayload, { headers: HEADERS })
