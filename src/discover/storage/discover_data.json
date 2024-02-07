@@ -65,6 +65,15 @@
                 "description": "Open generative art NFT platform on Tezos"
             },
             {
+                "title": "Teia",
+                "categories": [
+                    "marketplace"
+                ],
+                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/teia-thumbnail/raw",
+                "projectURL": "https://teia.art",
+                "description": "Community owned, artist friendly Marketplace"
+            },
+            {
                 "title": "akaSwap",
                 "categories": [
                     "marketplace"
@@ -81,15 +90,6 @@
                 "imageUri": "https://i0.wp.com/gatherart.org/wp-content/uploads/2022/03/8bidoubanner.jpg?resize=960%2C320&ssl=1",
                 "projectURL": "https://www.8bidou.com/",
                 "description": "The on-chain bitmap minter & marketplace"
-            },
-            {
-                "title": "Teia",
-                "categories": [
-                    "marketplace"
-                ],
-                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/teia-thumbnail/raw",
-                "projectURL": "https://teia.art",
-                "description": "Community owned, artist friendly Marketplace"
             },
             {
                 "title": "Versum",
