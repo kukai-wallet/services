@@ -2,16 +2,6 @@
     {
         "items": [
             {
-                "title": "McLaren Racing Digital Collectibles",
-                "categories": [
-                    "sports",
-                    "collectibles"
-                ],
-                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c07f74b-d293-45fc-78e2-a8c8dd456800/raw",
-                "projectURL": "https://collectibles.mclaren.com",
-                "description": "McLaren Racing's officially licensed Digital Collectibles"
-            },
-            {
                 "title": "Manchester United",
                 "categories": [
                     "sports",
@@ -20,6 +10,16 @@
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/c2e89483-7474-4ada-5764-418f26fd1900/raw",
                 "projectURL": "http://collectibles.manutd.com",
                 "description": "Officially licensed Digital Collectibles, powered by Tezos"
+            },
+            {
+                "title": "McLaren Racing Digital Collectibles",
+                "categories": [
+                    "sports",
+                    "collectibles"
+                ],
+                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c07f74b-d293-45fc-78e2-a8c8dd456800/raw",
+                "projectURL": "https://collectibles.mclaren.com",
+                "description": "McLaren Racing's officially licensed Digital Collectibles"
             },
             {
                 "title": "FloRacing Digital Collectibles",
@@ -65,6 +65,24 @@
                 "description": "Open generative art NFT platform on Tezos"
             },
             {
+                "title": "akaSwap",
+                "categories": [
+                    "marketplace"
+                ],
+                "imageUri": "https://camo.githubusercontent.com/bfc814a15bb18933dccb931b5fc50e59d86ef67627ce54900a5139484ce9ba1d/68747470733a2f2f616b61737761702e636f6d2f6c6f676f2f6f672d696d6167652e6a7067",
+                "projectURL": "https://akaswap.com/",
+                "description": "akaSwap is a friendly, open and green NFT platform based on Tezos, everyone can easily create, trade, and collect various NFT from all over the world."
+            },
+            {
+                "title": "8bidou",
+                "categories": [
+                    "marketplace"
+                ],
+                "imageUri": "https://i0.wp.com/gatherart.org/wp-content/uploads/2022/03/8bidoubanner.jpg?resize=960%2C320&ssl=1",
+                "projectURL": "https://www.8bidou.com/",
+                "description": "The on-chain bitmap minter & marketplace"
+            },
+            {
                 "title": "Teia",
                 "categories": [
                     "marketplace"
@@ -90,24 +108,6 @@
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/rarible/raw",
                 "projectURL": "https://rarible.com/",
                 "description": "Aggregated NFT marketplace with rewards"
-            },
-            {
-                "title": "akaSwap",
-                "categories": [
-                    "marketplace"
-                ],
-                "imageUri": "https://camo.githubusercontent.com/bfc814a15bb18933dccb931b5fc50e59d86ef67627ce54900a5139484ce9ba1d/68747470733a2f2f616b61737761702e636f6d2f6c6f676f2f6f672d696d6167652e6a7067",
-                "projectURL": "https://akaswap.com/",
-                "description": "akaSwap is a friendly, open and green NFT platform based on Tezos, everyone can easily create, trade, and collect various NFT from all over the world."
-            },
-            {
-                "title": "8bidou",
-                "categories": [
-                    "marketplace"
-                ],
-                "imageUri": "https://i0.wp.com/gatherart.org/wp-content/uploads/2022/03/8bidoubanner.jpg?resize=960%2C320&ssl=1",
-                "projectURL": "https://www.8bidou.com/",
-                "description": "The on-chain bitmap minter & marketplace"
             }
         ],
         "title": "Marketplaces"
@@ -174,15 +174,6 @@
     {
         "items": [
             {
-                "title": "Mooncakes",
-                "categories": [
-                    "collectibles"
-                ],
-                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mooncakes/raw",
-                "projectURL": "https://mooncakes.fun",
-                "description": "Have fun exploring a galaxy of NFTs"
-            },
-            {
                 "title": "Dogami",
                 "categories": [
                     "collectibles"
@@ -199,6 +190,15 @@
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/tezotopia/raw",
                 "projectURL": "https://app.tezotopia.com/marketplace/artifacts",
                 "description": "Battle, earn, win prizes plus NFT yield farming"
+            },
+            {
+                "title": "Mooncakes",
+                "categories": [
+                    "collectibles"
+                ],
+                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mooncakes/raw",
+                "projectURL": "https://mooncakes.fun",
+                "description": "Have fun exploring a galaxy of NFTs"
             },
             {
                 "title": "Stables",
@@ -283,14 +283,13 @@
                 "description": "Tezzardz is a collection of programmatically, randomly generated snazzy little buggers on the Tezos blockchain. Each and every one of them is is unique and illustrated by hand."
             },
             {
-                "title": "Ziggurats",
+                "title": "Ottez",
                 "categories": [
-                    "collectibles",
-                    "music"
+                    "collectibles"
                 ],
-                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/ziggurats/raw",
-                "projectURL": "https://ziggurats.xyz",
-                "description": "Generative mixtape + art by Mike Shinoda"
+                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/ottez/raw",
+                "projectURL": "https://www.ottez.xyz/",
+                "description": "Humans are gone. Ottez have moved in. 4,007 generative, collectible PFP otters have taken over Earth."
             },
             {
                 "title": "Neonz",
@@ -302,13 +301,14 @@
                 "description": "NEONZ is the portfolio website for Australian Artist Sutu. Sutu is an XR Artist, Futurist, and Co-Founder of the AR company, EyeJack."
             },
             {
-                "title": "Ottez",
+                "title": "Ziggurats",
                 "categories": [
-                    "collectibles"
+                    "collectibles",
+                    "music"
                 ],
-                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/ottez/raw",
-                "projectURL": "https://www.ottez.xyz/",
-                "description": "Humans are gone. Ottez have moved in. 4,007 generative, collectible PFP otters have taken over Earth."
+                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/ziggurats/raw",
+                "projectURL": "https://ziggurats.xyz",
+                "description": "Generative mixtape + art by Mike Shinoda"
             }
         ],
         "title": "PFP/Collectibles"
