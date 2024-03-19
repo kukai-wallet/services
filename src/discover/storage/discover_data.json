@@ -22,23 +22,13 @@
                 "description": "McLaren Racing's officially licensed Digital Collectibles"
             },
             {
-                "title": "FloRacing Digital Collectibles",
-                "categories": [
-                    "sports",
-                    "collectibles"
-                ],
-                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/1a7f8f74-416d-4531-f6f1-adf7d9a04200/raw",
-                "projectURL": "https://collectibles.flosports.tv/",
-                "description": "FloSports' officially licensed Digital Collectibles, powered by Tezos and brought to you by Tezos ecosystem companies"
-            },
-            {
                 "title": "Gap Threads",
                 "categories": [
                     "sports",
                     "collectibles"
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c006ab4-a7f2-4de1-a8de-359257a69e00/raw",
-                "projectURL": "https://www.gap.com/nft",
+                "projectURL": "https://objkt.com/collections/gapthreads",
                 "description": "A fun and interactive digital collectible experience"
             }
         ],
@@ -90,15 +80,6 @@
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3a1a674b-25cd-43e8-3110-cd3f7cf66600/raw",
                 "projectURL": "https://www.8bidou.com/",
                 "description": "The on-chain bitmap minter & marketplace"
-            },
-            {
-                "title": "Versum",
-                "categories": [
-                    "marketplace"
-                ],
-                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/versum/raw",
-                "projectURL": "https://versum.xyz/",
-                "description": "NFT Marketplace focused on organic content and curation."
             },
             {
                 "title": "Rarible",
@@ -158,15 +139,6 @@
                 "imageUri": "https://youves.com/wp-content/uploads/2023/03/uxtz.svg",
                 "projectURL": "https://youves.com/",
                 "description": "Your tool on Tezos for asset creation and management"
-            },
-            {
-                "title": "Vortex",
-                "categories": [
-                    "exchange"
-                ],
-                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/9e84d626-30b4-4e50-78de-c6e376a7ef00/raw",
-                "projectURL": "https://app.vortex.network/",
-                "description": "Vortex is an all-in-one decentralized finance protocol built on the Tezos blockchain."
             }
         ],
         "title": "DeFi"
@@ -265,7 +237,7 @@
                     "art"
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/cc7f8485-e60b-4184-7dbf-dbfc74489200/raw",
-                "projectURL": "https://discord.gg/lucrece",
+                "projectURL": "https://objkt.com/@lucrece",
                 "description": "Norwegian-born Vietnamese visual artist based in the US. Because life is about chasing Coke Zero™"
             }
         ],
@@ -316,11 +288,45 @@
     {
         "items": [
             {
+                "title": "Manchester United",
+                "categories": [
+                    "sports",
+                    "collectibles"
+                ],
+                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mufc-discover/raw",
+                "projectURL": "http://collectibles.manutd.com",
+                "description": "Officially licensed Digital Collectibles, powered by Tezos"
+            },
+            {
+                "title": "McLaren Racing Digital Collectibles",
+                "categories": [
+                    "sports",
+                    "collectibles"
+                ],
+                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mclaren-discover2/raw",
+                "projectURL": "https://collectibles.mclaren.com",
+                "description": "McLaren Racing's officially licensed Digital Collectibles"
+            },
+            {
+                "title": "V.Hive by Vitality",
+                "categories": [
+                    "collectibles"
+                ],
+                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/vitality/raw",
+                "projectURL": "https://vhive.vitality.gg/",
+                "description": "Hive aims to be the first support-to-earn system in esports for the widest audience with a free and easy to understand platform, opening new fan experience opportunities."
+            }
+        ],
+        "title": "Sports"
+    },
+    {
+        "items": [
+            {
                 "title": "OneOf",
                 "categories": [
                     "music"
                 ],
-                "imageUri": "https://about.oneof.com/wp-content/uploads/2022/02/oneof-logo-102422.svg",
+                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/e6e822fa-e238-4972-e7d9-44321e6d2000/raw",
                 "projectURL": "https://www.oneof.com/marketplacehome",
                 "description": "OneOf is the mass-consumer Web3 company connecting the next 100M non-crypto-native fans to iconic brands, artists, and athletes. OneOf technology enables global brands and enterprises to reimagine commerce, loyalty and engagement, allowing consumers to seamlessly collect or trade digital assets with no prior crypto expertise. Deeply committed to a sustainable and inclusive blockchain future, minting digital assets on OneOf&#039;s platform uses up to 2 million times less energy than previous generation proof-of-work networks, and costs up to 99% less in gas fees. A leader in diversity, over 80% of the collections curated by OneOf come from minority or female creators."
             },
