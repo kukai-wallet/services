@@ -1,6 +1,7 @@
 import { Env } from '../../worker-configuration'
 import { VERSIONS, makeResponsePayload } from '../utils/versioning'
-import discoverData from './storage/discover_data.json'
+import data from './storage/discover_data.json'
+import allCategory from './storage/discover_all_category.json'
 
 const HEADERS = {
     "content-type": "application/json;charset=UTF-8",
@@ -10,7 +11,13 @@ const HEADERS = {
 
 export async function handleDiscover(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
     const version = request.url.includes(VERSIONS.V2) ? VERSIONS.V2 : VERSIONS.V1
+
     let responsePayload
+
+    const { searchParams } = new URL(request.url)
+    const showAll = searchParams.get('all') === 'true'
+
+    const discoverData = [...(showAll ? allCategory : []), ...data]
 
     if (version === VERSIONS.V1) {
         responsePayload = JSON.stringify(discoverData)
