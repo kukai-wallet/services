@@ -9,7 +9,8 @@
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/0fe4c96e-65bc-4bf5-8edc-531d6bc29c00/raw",
                 "projectURL": "http://collectibles.manutd.com",
-                "description": "Officially licensed Digital Collectibles, powered by Tezos"
+                "description": "Officially licensed Digital Collectibles, powered by Tezos",
+                "zoomDiscoverImg": true
             },
             {
                 "title": "McLaren Racing Digital Collectibles",
@@ -19,7 +20,8 @@
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/f0dda0ba-c1e9-4f92-dff7-b33f4445a600/raw",
                 "projectURL": "https://collectibles.mclaren.com",
-                "description": "McLaren Racing's officially licensed Digital Collectibles"
+                "description": "McLaren Racing's officially licensed Digital Collectibles",
+                "zoomDiscoverImg": true
             },
             {
                 "title": "Gap Threads",
@@ -28,7 +30,8 @@
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/94bbd231-bd12-405b-9866-933efa506c00/raw",
                 "projectURL": "https://objkt.com/collections/gapthreads",
-                "description": "A fun and interactive digital collectible experience"
+                "description": "A fun and interactive digital collectible experience",
+                "backgroundColor": "black"
             },
             {
                 "title": "Dogami",
@@ -38,7 +41,8 @@
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/6857ffdb-31fd-4233-2494-66e9a3d91100/raw",
                 "projectURL": "https://dogami.com",
-                "description": "Raise unique virtual NFT avatars on mobile"
+                "description": "Raise unique virtual NFT avatars on mobile",
+                "zoomDiscoverImg": true
             },
             {
                 "title": "fxhash",
@@ -47,7 +51,9 @@
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/1691f8ed-a134-4c05-e708-6dc16e584d00/raw",
                 "projectURL": "https://www.fxhash.xyz",
-                "description": "Open generative art NFT platform on Tezos"
+                "description": "Open generative art NFT platform on Tezos",
+                "backgroundColor": "black",
+                "zoomDiscoverImg": true
             },
             {
                 "title": "Ubisoft Quartz",
@@ -57,7 +63,8 @@
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/bb4ba7c6-a29a-4a55-e134-98f4cc7a1300/raw",
                 "projectURL": "https://quartz.ubisoft.com/",
-                "description": "The first Ubisoft NFTs playable in a HD game"
+                "description": "The first Ubisoft NFTs playable in a HD game",
+                "backgroundColor": "black"
             },
             {
                 "title": "Mooncakes",
@@ -66,7 +73,9 @@
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8b7e7eac-39b1-40a8-0aa8-a4f3104d0500/raw",
                 "projectURL": "https://mooncakes.fun",
-                "description": "Have fun exploring a galaxy of NFTs"
+                "description": "Have fun exploring a galaxy of NFTs",
+                "backgroundColor": "#1C1C20",
+                "zoomDiscoverImg": true
             },
             {
                 "title": "OneOf",
@@ -76,7 +85,8 @@
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/783d4677-da39-4aa0-a704-f8642131e200/raw",
                 "projectURL": "https://www.oneof.com/GloGang",
-                "description": "A green NFT platform for the music community"
+                "description": "A green NFT platform for the music community",
+                "backgroundColor": "#000"
             },
             {
                 "title": "Ziggurats",
@@ -85,6 +95,7 @@
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/bb271b31-721a-4d4e-4534-de2479ee3400/raw",
                 "projectURL": "https://ziggurats.xyz",
+                "backgroundColor": "#000",
                 "description": "Generative mixtape + art by Mike Shinoda"
             },
             {
@@ -94,7 +105,8 @@
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/b6da879a-b47d-4eaa-4aa8-698f5ac43000/raw",
                 "projectURL": "https://objkt.com/collection/rcs",
-                "description": "randomly generated skeleton .gifs by john karel : )"
+                "description": "randomly generated skeleton .gifs by john karel : )",
+                "zoomDiscoverImg": true
             },
             {
                 "title": "Teia",
@@ -112,7 +124,8 @@
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/e82a0585-015b-4994-955a-1604c36af300/raw",
                 "projectURL": "https://quipuswap.com/",
-                "description": "A decentralized exchange on Tezos"
+                "description": "A decentralized exchange on Tezos",
+                "backgroundColor": "#222d47"
             },
             {
                 "title": "objkt.com",
@@ -130,7 +143,8 @@
                 ],
                 "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3c0a749e-54f3-4fe7-369b-a4f16696f900/raw",
                 "projectURL": "https://tezos.domains/",
-                "description": "Tezos names are FA2-compliant NFTs which you own and control. Just like cryptocurrency, your names are stored securely in your wallet and only you can manage and move them."
+                "description": "Tezos names are FA2-compliant NFTs which you own and control. Just like cryptocurrency, your names are stored securely in your wallet and only you can manage and move them.",
+                "backgroundColor": "#f1f4f8"
             },
             {
                 "title": "Tezotopia",
