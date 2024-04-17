@@ -5,7 +5,8 @@ import { stringToBase64 } from "./text-utils"
 
 export enum VERSIONS {
     V1 = "/v1/",
-    V2 = "/v2/"
+    V2 = "/v2/",
+    V3 = "/v3/",
 }
 
 const ENCODE_ENABLED_OPTIONS = new Set(["", "true"])

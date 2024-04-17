@@ -1,0 +1,508 @@
+{
+    "mainnet": [
+        {
+            "items": [
+                {
+                    "title": "Manchester United",
+                    "categories": [
+                        "sports",
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/c2e89483-7474-4ada-5764-418f26fd1900/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/webCarousel",
+                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/mobileCarousel",
+                    "projectUrl": "http://collectibles.manutd.com",
+                    "description": "Officially licensed Digital Collectibles, powered by Tezos"
+                },
+                {
+                    "title": "McLaren Racing Digital Collectibles",
+                    "categories": [
+                        "sports",
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c07f74b-d293-45fc-78e2-a8c8dd456800/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/a8e8679f-3412-43a2-330f-0b5059885000/webCarousel",
+                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/a8e8679f-3412-43a2-330f-0b5059885000/mobileCarousel",
+                    "projectUrl": "https://collectibles.mclaren.com",
+                    "description": "McLaren Racing's officially licensed Digital Collectibles"
+                },
+                {
+                    "title": "Gap Threads",
+                    "categories": [
+                        "sports",
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c006ab4-a7f2-4de1-a8de-359257a69e00/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c006ab4-a7f2-4de1-a8de-359257a69e00/webCarousel",
+                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c006ab4-a7f2-4de1-a8de-359257a69e00/mobileCarousel",
+                    "projectUrl": "https://objkt.com/collections/gapthreads",
+                    "description": "A fun and interactive digital collectible experience"
+                }
+            ],
+            "title": "Featured"
+        },
+        {
+            "items": [
+                {
+                    "title": "objkt",
+                    "categories": [
+                        "marketplace"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/0d36c6e9-d85d-4c23-5252-0f3d7c037400/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://objkt.com/",
+                    "description": "The best Tezos NFTs all in one place"
+                },
+                {
+                    "title": "fxhash",
+                    "categories": [
+                        "marketplace"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://www.fxhash.xyz",
+                    "description": "Open generative art NFT platform on Tezos"
+                },
+                {
+                    "title": "Teia",
+                    "categories": [
+                        "marketplace"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/teia-thumbnail/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://teia.art",
+                    "description": "Community owned, artist friendly Marketplace"
+                },
+                {
+                    "title": "akaSwap",
+                    "categories": [
+                        "marketplace"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/82b81326-142b-4a50-553a-babd12a39000/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://akaswap.com/",
+                    "description": "akaSwap is a friendly, open and green NFT platform based on Tezos, everyone can easily create, trade, and collect various NFT from all over the world."
+                },
+                {
+                    "title": "8bidou",
+                    "categories": [
+                        "marketplace"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3a1a674b-25cd-43e8-3110-cd3f7cf66600/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://www.8bidou.com/",
+                    "description": "The on-chain bitmap minter & marketplace"
+                },
+                {
+                    "title": "Rarible",
+                    "categories": [
+                        "marketplace"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/rarible/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://rarible.com/",
+                    "description": "Aggregated NFT marketplace with rewards"
+                }
+            ],
+            "title": "Marketplaces"
+        },
+        {
+            "items": [
+                {
+                    "title": "Quipuswap",
+                    "categories": [
+                        "exchange"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/quipuswap_logo/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://quipuswap.com/",
+                    "description": "A decentralized exchange on Tezos"
+                },
+                {
+                    "title": "Plenty",
+                    "categories": [
+                        "exchange"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/ed9bebf6-72aa-4d24-d19a-477ba44ae800/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://plenty.network/",
+                    "description": "A user-friendly, open source, & decentralized ecosystem built for you"
+                },
+                {
+                    "title": "Crunchy",
+                    "categories": [
+                        "exchange"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/956d2e2c-31be-4b7d-7d3d-95e61084d500/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://crunchy.network/#/",
+                    "description": "View charts and price data on cryptocurrencies in the Tezos ecosystem"
+                },
+                {
+                    "title": "3Route",
+                    "categories": [
+                        "exchange"
+                    ],
+                    "squareLogoUri": "https://icoholder.com/files/img/5b9928e154ab7b13890aba8f7a4e58a3.png",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://3route.io/",
+                    "description": "The Next Gen DEX Aggregator in Tezos. Use liquidity from most popular Tezos DEXes from one interface."
+                },
+                {
+                    "title": "youves",
+                    "categories": [
+                        "exchange"
+                    ],
+                    "squareLogoUri": "https://youves.com/wp-content/uploads/2023/03/uxtz.svg",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://youves.com/",
+                    "description": "Your tool on Tezos for asset creation and management"
+                }
+            ],
+            "title": "DeFi"
+        },
+        {
+            "items": [
+                {
+                    "title": "Dogami",
+                    "categories": [
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/dogami-thumbnail/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://dogami.com",
+                    "description": "Raise unique virtual NFT avatars on mobile"
+                },
+                {
+                    "title": "Tezotopia",
+                    "categories": [
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/tezotopia/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://app.tezotopia.com/marketplace/artifacts",
+                    "description": "Battle, earn, win prizes plus NFT yield farming"
+                },
+                {
+                    "title": "Mooncakes",
+                    "categories": [
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mooncakes/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://mooncakes.fun",
+                    "description": "Have fun exploring a galaxy of NFTs"
+                },
+                {
+                    "title": "Stables",
+                    "categories": [
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/670e4f5e-7950-42d5-9616-f6daea0ec300/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://www.playstables.io/",
+                    "description": "Join the exciting world of Stables, a horse fantasy game powered by NFT technology and real racehorses"
+                },
+                {
+                    "title": "V.Hive by Vitality",
+                    "categories": [
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/vitality/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://vhive.vitality.gg/",
+                    "description": "Hive aims to be the first support-to-earn system in esports for the widest audience with a free and easy to understand platform, opening new fan experience opportunities."
+                }
+            ],
+            "title": "Games"
+        },
+        {
+            "items": [
+                {
+                    "title": "zancan",
+                    "categories": [
+                        "art"
+                    ],
+                    "squareLogoUri": "https://assets.objkt.media/file/assets-003/f7fa6102062cda432f7a43064c8b72397ac3347e/thumb120",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://objkt.com/@zancan",
+                    "description": "Generative artist, former painter, night owl 🌿Lushtemples series ☾ Stills From Last Night series 🪨 Garden, Monoliths"
+                },
+                {
+                    "title": "williamapan",
+                    "categories": [
+                        "art"
+                    ],
+                    "squareLogoUri": "https://assets.objkt.media/file/assets-003/06178721df4edd39e1658c82b7b5c06eb4711adb/thumb120",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://objkt.com/users/tz1eJF2r9JsfDLAswoo5iCDk6Qv2yWt6fbMX/collections",
+                    "description": "Analog, digital & generative artist"
+                },
+                {
+                    "title": "Iskra Velitchkova",
+                    "categories": [
+                        "art"
+                    ],
+                    "squareLogoUri": "https://services.tzkt.io/v1/avatars2/tz1gVKxpEGC7QW1fZyEEMEW2kgJRbpgWLNpD",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://objkt.com/users/tz1gVKxpEGC7QW1fZyEEMEW2kgJRbpgWLNpD/collections",
+                    "description": "Generative Artist"
+                },
+                {
+                    "title": "jjjjjohn",
+                    "categories": [
+                        "art"
+                    ],
+                    "squareLogoUri": "https://services.tzkt.io/v1/avatars2/tz1iZ2TPEShFC8TqHsXLA9RXdV7tSv8E3aLe",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://objkt.com/users/tz1iZ2TPEShFC8TqHsXLA9RXdV7tSv8E3aLe",
+                    "description": "skeleton gifs, etc"
+                },
+                {
+                    "title": "Lucrece",
+                    "categories": [
+                        "art"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/cc7f8485-e60b-4184-7dbf-dbfc74489200/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://objkt.com/@lucrece",
+                    "description": "Norwegian-born Vietnamese visual artist based in the US. Because life is about chasing Coke Zero™"
+                }
+            ],
+            "title": "Art"
+        },
+        {
+            "items": [
+                {
+                    "title": "Tezzardz",
+                    "categories": [
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/tezzardz/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://www.tezzardz.xyz/",
+                    "description": "Tezzardz is a collection of programmatically, randomly generated snazzy little buggers on the Tezos blockchain. Each and every one of them is is unique and illustrated by hand."
+                },
+                {
+                    "title": "Ottez",
+                    "categories": [
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/ottez/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://www.ottez.xyz/",
+                    "description": "Humans are gone. Ottez have moved in. 4,007 generative, collectible PFP otters have taken over Earth."
+                },
+                {
+                    "title": "Neonz",
+                    "categories": [
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/neonz/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://www.neonz.xyz/",
+                    "description": "NEONZ is the portfolio website for Australian Artist Sutu. Sutu is an XR Artist, Futurist, and Co-Founder of the AR company, EyeJack."
+                },
+                {
+                    "title": "Ziggurats",
+                    "categories": [
+                        "collectibles",
+                        "music"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/ziggurats/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://ziggurats.xyz",
+                    "description": "Generative mixtape + art by Mike Shinoda"
+                }
+            ],
+            "title": "PFP/Collectibles"
+        },
+        {
+            "items": [
+                {
+                    "title": "Manchester United",
+                    "categories": [
+                        "sports",
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mufc/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "http://collectibles.manutd.com",
+                    "description": "Officially licensed Digital Collectibles, powered by Tezos"
+                },
+                {
+                    "title": "McLaren Racing Digital Collectibles",
+                    "categories": [
+                        "sports",
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mclaren-thumbnail2/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://collectibles.mclaren.com",
+                    "description": "McLaren Racing's officially licensed Digital Collectibles"
+                },
+                {
+                    "title": "V.Hive by Vitality",
+                    "categories": [
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/vitality/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://vhive.vitality.gg/",
+                    "description": "Hive aims to be the first support-to-earn system in esports for the widest audience with a free and easy to understand platform, opening new fan experience opportunities."
+                }
+            ],
+            "title": "Sports"
+        },
+        {
+            "items": [
+                {
+                    "title": "OneOf",
+                    "categories": [
+                        "music"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/e6e822fa-e238-4972-e7d9-44321e6d2000/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://www.oneof.com/marketplacehome",
+                    "description": "OneOf is the mass-consumer Web3 company connecting the next 100M non-crypto-native fans to iconic brands, artists, and athletes. OneOf technology enables global brands and enterprises to reimagine commerce, loyalty and engagement, allowing consumers to seamlessly collect or trade digital assets with no prior crypto expertise. Deeply committed to a sustainable and inclusive blockchain future, minting digital assets on OneOf&#039;s platform uses up to 2 million times less energy than previous generation proof-of-work networks, and costs up to 99% less in gas fees. A leader in diversity, over 80% of the collections curated by OneOf come from minority or female creators."
+                },
+                {
+                    "title": "Ziggurats",
+                    "categories": [
+                        "collectibles",
+                        "music"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/ziggurats/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://ziggurats.xyz",
+                    "description": "Generative mixtape + art by Mike Shinoda"
+                }
+            ],
+            "title": "Music"
+        },
+        {
+            "items": [
+                {
+                    "title": "Tezos Domains",
+                    "categories": [
+                        "tools"
+                    ],
+                    "squareLogoUri": "https://d33wubrfki0l68.cloudfront.net/5c38e6c562ae78abd4114db5d484ea7a88eb50eb/587d0/static/td-logo01-bright.d539d312.svg",
+                    "wideLogoUri": "",
+                    "webBannerUri": "",
+                    "mobileBannerUri": "",
+                    "projectUrl": "https://tezos.domains/",
+                    "description": "Tezos names are FA2-compliant NFTs which you own and control. Just like cryptocurrency, your names are stored securely in your wallet and only you can manage and move them."
+                }
+            ],
+            "title": "Tools/Identity"
+        }
+    ],
+    "ghostnet": [
+        {
+            "items": [
+                {
+                    "title": "Test",
+                    "categories": [
+                        "testing"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/webCarousel",
+                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/mobileCarousel",
+                    "projectUrl": "",
+                    "description": "Test"
+                },
+                {
+                    "title": "Mooncakes",
+                    "categories": [
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mooncakes/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/f464b77b-7f49-4516-f8eb-4e72a3f20600/webCarousel",
+                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/f464b77b-7f49-4516-f8eb-4e72a3f20600/mobileCarousel",
+                    "projectUrl": "https://mooncakes.fun",
+                    "description": "Have fun exploring a galaxy of NFTs"
+                },
+                {
+                    "title": "Manchester United",
+                    "categories": [
+                        "sports",
+                        "collectibles"
+                    ],
+                    "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/c2e89483-7474-4ada-5764-418f26fd1900/raw",
+                    "wideLogoUri": "",
+                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/webCarousel",
+                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/mobileCarousel",
+                    "projectUrl": "http://collectibles.manutd.com",
+                    "description": "Officially licensed Digital Collectibles, powered by Tezos"
+                }
+            ],
+            "title": "Featured"
+        }
+    ]
+}
