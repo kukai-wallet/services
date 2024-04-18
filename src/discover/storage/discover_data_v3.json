@@ -10,8 +10,8 @@
                     ],
                     "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/c2e89483-7474-4ada-5764-418f26fd1900/raw",
                     "wideLogoUri": "",
-                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/webCarousel",
-                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/mobileCarousel",
+                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/webBannerUri",
+                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/mobileBannerUri",
                     "projectUrl": "http://collectibles.manutd.com",
                     "description": "Officially licensed Digital Collectibles, powered by Tezos"
                 },
@@ -23,8 +23,8 @@
                     ],
                     "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c07f74b-d293-45fc-78e2-a8c8dd456800/raw",
                     "wideLogoUri": "",
-                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/a8e8679f-3412-43a2-330f-0b5059885000/webCarousel",
-                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/a8e8679f-3412-43a2-330f-0b5059885000/mobileCarousel",
+                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/a8e8679f-3412-43a2-330f-0b5059885000/webBannerUri",
+                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/a8e8679f-3412-43a2-330f-0b5059885000/mobileBannerUri",
                     "projectUrl": "https://collectibles.mclaren.com",
                     "description": "McLaren Racing's officially licensed Digital Collectibles"
                 },
@@ -36,8 +36,8 @@
                     ],
                     "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c006ab4-a7f2-4de1-a8de-359257a69e00/raw",
                     "wideLogoUri": "",
-                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c006ab4-a7f2-4de1-a8de-359257a69e00/webCarousel",
-                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c006ab4-a7f2-4de1-a8de-359257a69e00/mobileCarousel",
+                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c006ab4-a7f2-4de1-a8de-359257a69e00/webBannerUri",
+                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c006ab4-a7f2-4de1-a8de-359257a69e00/mobileBannerUri",
                     "projectUrl": "https://objkt.com/collections/gapthreads",
                     "description": "A fun and interactive digital collectible experience"
                 }
@@ -471,8 +471,8 @@
                     ],
                     "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/raw",
                     "wideLogoUri": "",
-                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/webCarousel",
-                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/mobileCarousel",
+                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/webBannerUri",
+                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/mobileBannerUri",
                     "projectUrl": "",
                     "description": "Test"
                 },
@@ -483,8 +483,8 @@
                     ],
                     "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mooncakes/raw",
                     "wideLogoUri": "",
-                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/f464b77b-7f49-4516-f8eb-4e72a3f20600/webCarousel",
-                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/f464b77b-7f49-4516-f8eb-4e72a3f20600/mobileCarousel",
+                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/f464b77b-7f49-4516-f8eb-4e72a3f20600/webBannerUri",
+                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/f464b77b-7f49-4516-f8eb-4e72a3f20600/mobileBannerUri",
                     "projectUrl": "https://mooncakes.fun",
                     "description": "Have fun exploring a galaxy of NFTs"
                 },
@@ -496,8 +496,8 @@
                     ],
                     "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/c2e89483-7474-4ada-5764-418f26fd1900/raw",
                     "wideLogoUri": "",
-                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/webCarousel",
-                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/mobileCarousel",
+                    "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/webBannerUri",
+                    "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/mobileBannerUri",
                     "projectUrl": "http://collectibles.manutd.com",
                     "description": "Officially licensed Digital Collectibles, powered by Tezos"
                 }
