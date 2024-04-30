@@ -1,23 +1,4 @@
 {
-    "mclarenracing": {
-        "name": "McLaren Racing Digital Collectibles",
-        "contractAddresses": [
-            "KT1PEGqt5rMmHpyaMXc8RFTFkkAUDrzSFRWk",
-            "KT1BRADdqGk2eLmMqvyWzqVmPQ1RCBCbW5dY",
-            "KT1QgfSE4C1dX9UqrPAXjUaFQ36F9eB4nNkV"
-        ],
-        "description": "McLaren Racing's officially licensed Digital Collectibles",
-        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mclaren-thumbnail2/raw",
-        "discover": {
-            "dappUrl": "https://collectibles.mclaren.com",
-            "category": [
-                "sports",
-                "collectibles"
-            ],
-            "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mclaren-discover2/raw",
-            "hasZoomDiscoverImage": true
-        }
-    },
     "manutd": {
         "name": "Manchester United",
         "contractAddresses": [
@@ -42,6 +23,25 @@
                 "collectibles"
             ],
             "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mufc-discover/raw",
+            "hasZoomDiscoverImage": true
+        }
+    },
+    "mclarenracing": {
+        "name": "McLaren Racing Digital Collectibles",
+        "contractAddresses": [
+            "KT1PEGqt5rMmHpyaMXc8RFTFkkAUDrzSFRWk",
+            "KT1BRADdqGk2eLmMqvyWzqVmPQ1RCBCbW5dY",
+            "KT1QgfSE4C1dX9UqrPAXjUaFQ36F9eB4nNkV"
+        ],
+        "description": "McLaren Racing's officially licensed Digital Collectibles",
+        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/50988416-74f8-439b-ecb1-f0de34613500/raw",
+        "discover": {
+            "dappUrl": "https://collectibles.mclaren.com",
+            "category": [
+                "sports",
+                "collectibles"
+            ],
+            "discoverImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mclaren-discover2/raw",
             "hasZoomDiscoverImage": true
         }
     },
@@ -111,7 +111,7 @@
         "description": "A fun and interactive digital collectible experience",
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/gap_600x600/raw",
         "discover": {
-            "dappUrl": "https://www.gap.com/nft",
+            "dappUrl": "https://objkt.com/collections/gapthreads",
             "category": [
                 "collectibles"
             ],
@@ -290,6 +290,14 @@
             "hasZoomDiscoverImage": false
         }
     },
+    "BattleTabs": {
+        "name": "BattleTabs",
+        "contractAddresses": [
+            "KT1J13kB3GQBuu9VJv5jsuCXJf6jSQoJjkPf"
+        ],
+        "description": "Battletabs' Digital Collectibles, powered by Tezos and brought to you by Tezos ecosystem companies.",
+        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/433fc989-a276-4cf5-88c0-c8370e47ad00/raw"
+    },
     "QuipuSwap": {
         "name": "QuipuSwap",
         "contractAddresses": [],
@@ -365,14 +373,6 @@
         ],
         "description": "Unique colors as NFT tokens on Tezos",
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/tzcolors/raw"
-    },
-    "BattleTabs": {
-        "name": "Battle Tabs",
-        "contractAddresses": [
-            "KT1J13kB3GQBuu9VJv5jsuCXJf6jSQoJjkPf"
-        ],
-        "description": "Battletabs' Digital Collectibles, powered by Tezos and brought to you by Tezos ecosystem companies.",
-        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/433fc989-a276-4cf5-88c0-c8370e47ad00/raw"
     },
     "Tezotopia": {
         "name": "Tezotopia",
