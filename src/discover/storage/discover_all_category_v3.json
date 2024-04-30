@@ -113,7 +113,7 @@
                 "backgroundColor": "#000"
             },
             {
-                "title": "Ziggurats",
+                "title": "ZIGGURATS",
                 "categories": [
                     "collectibles"
                 ],
@@ -148,10 +148,10 @@
                 "webBannerUri": "",
                 "mobileBannerUri": "",
                 "projectUrl": "https://teia.art",
-                "description": "Largest independent artist-friendly NFT Marketplace"
+                "description": "Community owned, artist friendly Marketplace"
             },
             {
-                "title": "Quipuswap",
+                "title": "QuipuSwap",
                 "categories": [
                     "exchange"
                 ],
