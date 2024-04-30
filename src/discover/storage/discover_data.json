@@ -42,10 +42,9 @@
                 "categories": [
                     "category"
                 ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/webBannerUri",
-                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/mobileBannerUri",
+                "imageUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/raw",
+                "webCarouselUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/webBannerUri",
+                "mobileCarouselUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/mobileBannerUri",
                 "projectUrl": "https://tezos.com/",
                 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viv"
             }
