@@ -36,6 +36,18 @@
                 "mobileCarouselUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c006ab4-a7f2-4de1-a8de-359257a69e00/mobileCarousel",
                 "projectURL": "https://objkt.com/collections/gapthreads",
                 "description": "A fun and interactive digital collectible experience"
+            },
+            {
+                "title": "Test Feature",
+                "categories": [
+                    "category"
+                ],
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/raw",
+                "wideLogoUri": "",
+                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/webBannerUri",
+                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/mobileBannerUri",
+                "projectUrl": "https://tezos.com/",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viv"
             }
         ],
         "title": "Featured"
