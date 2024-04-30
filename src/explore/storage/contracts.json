@@ -293,7 +293,8 @@
     "BattleTabs": {
         "name": "BattleTabs",
         "contractAddresses": [
-            "KT1J13kB3GQBuu9VJv5jsuCXJf6jSQoJjkPf"
+            "KT1J13kB3GQBuu9VJv5jsuCXJf6jSQoJjkPf",
+            "KT1FuNeqUjHHmFDtNA8V9hVgmV68E1JKh1sw"
         ],
         "description": "Battletabs' Digital Collectibles, powered by Tezos and brought to you by Tezos ecosystem companies.",
         "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/433fc989-a276-4cf5-88c0-c8370e47ad00/raw"
