@@ -11,11 +11,13 @@ vars = { ENVIRONMENT = "dev" }
 [env.staging]
 vars = { ENVIRONMENT = "staging" }
 routes = [
-	{ pattern = "staging.services.kukai.app", custom_domain = true }
+	{ pattern = "staging.services.kukai.app", custom_domain = true },
+	{ pattern = "staging.services.ghostnet.kukai.app", custom_domain = true }
 ]
 
 [env.production]
 vars = { ENVIRONMENT = "production" }
 routes = [
-	{ pattern = "services.kukai.app", custom_domain = true }
+	{ pattern = "services.kukai.app", custom_domain = true },
+	{ pattern = "services.ghostnet.kukai.app", custom_domain = true }
 ]
