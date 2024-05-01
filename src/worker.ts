@@ -2,7 +2,7 @@ import { Env } from '../worker-configuration';
 import apiRouter from './router';
 import { VERSIONS } from './utils/versioning';
 
-const ALLOWED_VERSIONS = new Set<string>([VERSIONS.V1, VERSIONS.V2, VERSIONS.V3])
+const ALLOWED_VERSIONS = new Set<string>([VERSIONS.V1, VERSIONS.V2, VERSIONS.V3, VERSIONS.V4])
 
 export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {

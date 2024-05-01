@@ -2,13 +2,14 @@ import { RouteHandler, Router } from 'itty-router';
 import { handleDiscover } from './discover/handle-discover';
 import { handleExpore } from './explore/handle-explore';
 import { handleMetadata } from './metadata/handle-metadata';
-import { handleVersion } from './version/handle-version';
 import { handleProxy } from './proxy/handle-proxy';
+import { handleVersion } from './version/handle-version';
 
 export enum ROUTES {
 	DISCOVER = '/v1/discover',
 	DISCOVER_V2 = '/v2/discover',
 	DISCOVER_V3 = '/v3/discover',
+	DISCOVER_V4 = '/v4/discover',
 	EXPLORE = '/v1/explore',
 	EXPLORE_V2 = '/v2/explore',
 	METADATA = '/v1/metadata/*',
@@ -21,6 +22,7 @@ const router = Router();
 router.get(ROUTES.DISCOVER, handleDiscover as unknown as RouteHandler)
 router.get(ROUTES.DISCOVER_V2, handleDiscover as unknown as RouteHandler)
 router.get(ROUTES.DISCOVER_V3, handleDiscover as unknown as RouteHandler)
+router.get(ROUTES.DISCOVER_V4, handleDiscover as unknown as RouteHandler)
 router.get(ROUTES.EXPLORE, handleExpore as unknown as RouteHandler)
 router.get(ROUTES.EXPLORE_V2, handleExpore as unknown as RouteHandler)
 router.get(ROUTES.METADATA, handleMetadata as unknown as RouteHandler)

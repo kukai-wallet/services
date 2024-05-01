@@ -7,9 +7,22 @@ export enum VERSIONS {
     V1 = "/v1/",
     V2 = "/v2/",
     V3 = "/v3/",
+    V4 = "/v4/",
+}
+
+export enum NETWORK {
+    MAINNET = 'mainnet',
+    GHOSTNET = 'ghostnet',
 }
 
 const ENCODE_ENABLED_OPTIONS = new Set(["", "true"])
+
+export function getNetwork(url: string) {
+    const { hostname } = new URL(url)
+    return hostname.includes(NETWORK.GHOSTNET)
+        ? NETWORK.GHOSTNET
+        : NETWORK.MAINNET
+}
 
 export function makeResponsePayload(payload: any, version: VERSIONS, env: Env, requestUrl: string) {
     if (version === VERSIONS.V1) {
