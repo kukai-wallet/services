@@ -40,5 +40,34 @@
             }
         ],
         "title": "Featured"
+    },
+    {
+        "items": [
+            {
+                "title": "QuipuSwap",
+                "categories": [
+                    "exchange"
+                ],
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/quipuswap_logo/raw",
+                "wideLogoUri": "",
+                "webBannerUri": "",
+                "mobileBannerUri": "",
+                "projectUrl": "https://ghostnet.quipuswap.com/",
+                "description": "A decentralized exchange on Tezos"
+            },
+            {
+                "title": "Wtz.io",
+                "categories": [
+                    "exchange"
+                ],
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/847fd695-0dc0-47f4-e721-d948a5513000/raw",
+                "wideLogoUri": "",
+                "webBannerUri": "",
+                "mobileBannerUri": "",
+                "projectUrl": "https://ghostnet.wtz.io/",
+                "description": "“Ghostnet version of Crunchy’s wrapped XTZ"
+            }
+        ],
+        "title": "DeFi"
     }
 ]

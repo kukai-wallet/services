@@ -5,7 +5,8 @@ import dataV3 from './storage/discover_data_v3.json'
 import dataMainnetV4 from './storage/v4.mainnet.json'
 import dataGhostnetV4 from './storage/v4.ghostnet.json'
 import allCategory from './storage/discover_all_category.json'
-import allCategoryNewSchema from './storage/v4-all-category.mainnet.json'
+import allCategoryNewSchemaMainnet from './storage/v4-all-category.mainnet.json'
+import allCategoryNewSchemaGhostnet from './storage/v4-all-category.ghostnet.json'
 
 const HEADERS = {
     "content-type": "application/json;charset=UTF-8",
@@ -20,14 +21,12 @@ function getDiscoverData(network: NETWORK, version: VERSIONS, showAll: boolean) 
         if (version === VERSIONS.V4) {
             const isGhostnet = network === NETWORK.GHOSTNET
             const data = isGhostnet ? dataGhostnetV4 : dataMainnetV4
-            return [
-                ...((showAll && !isGhostnet) ? allCategoryNewSchema : []),
-                ...data
-            ]
+            const dataAllCategory = isGhostnet ? allCategoryNewSchemaGhostnet : allCategoryNewSchemaMainnet
+            return [...(showAll ? dataAllCategory : []), ...data]
         }
 
         return {
-            mainnet: [...(showAll ? allCategoryNewSchema : []), ...dataV3.mainnet],
+            mainnet: [...(showAll ? allCategoryNewSchemaMainnet : []), ...dataV3.mainnet],
             ghostnet: dataV3.ghostnet
         }
     } else {
