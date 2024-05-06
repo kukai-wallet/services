@@ -28,29 +28,28 @@
                 "description": "McLaren Racing's officially licensed Digital Collectibles"
             },
             {
-                "title": "Gap Threads",
+                "title": "objkt",
                 "categories": [
-                    "sports",
-                    "collectibles"
+                    "marketplace"
                 ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c006ab4-a7f2-4de1-a8de-359257a69e00/raw",
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/0d36c6e9-d85d-4c23-5252-0f3d7c037400/raw",
                 "wideLogoUri": "",
-                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c006ab4-a7f2-4de1-a8de-359257a69e00/webBannerUri",
-                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/4c006ab4-a7f2-4de1-a8de-359257a69e00/mobileBannerUri",
-                "projectUrl": "https://objkt.com/collections/gapthreads",
-                "description": "A fun and interactive digital collectible experience"
+                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/d5d319d6-05b9-415d-5f6a-5575d7874000/webBannerUri",
+                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/d5d319d6-05b9-415d-5f6a-5575d7874000/mobileBannerUri",
+                "projectUrl": "https://objkt.com/",
+                "description": "The best Tezos NFTs all in one place"
             },
             {
-                "title": "Test Feature",
+                "title": "fxhash",
                 "categories": [
-                    "category"
+                    "marketplace"
                 ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/raw",
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash/raw",
                 "wideLogoUri": "",
-                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/webBannerUri",
-                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8c96da2b-6a5a-4b84-86aa-cd2149b64400/mobileBannerUri",
-                "projectUrl": "https://tezos.com/",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viv"
+                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/56d593e4-b7b2-4914-9424-54a20d5a4a00/webBannerUri",
+                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/56d593e4-b7b2-4914-9424-54a20d5a4a00/mobileBannerUri",
+                "projectUrl": "https://www.fxhash.xyz",
+                "description": "Open generative art NFT platform on Tezos"
             }
         ],
         "title": "Featured"
@@ -64,8 +63,8 @@
                 ],
                 "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/0d36c6e9-d85d-4c23-5252-0f3d7c037400/raw",
                 "wideLogoUri": "",
-                "webBannerUri": "",
-                "mobileBannerUri": "",
+                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/d5d319d6-05b9-415d-5f6a-5575d7874000/webBannerUri",
+                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/d5d319d6-05b9-415d-5f6a-5575d7874000/mobileBannerUri",
                 "projectUrl": "https://objkt.com/",
                 "description": "The best Tezos NFTs all in one place"
             },
@@ -76,8 +75,8 @@
                 ],
                 "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash/raw",
                 "wideLogoUri": "",
-                "webBannerUri": "",
-                "mobileBannerUri": "",
+                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/56d593e4-b7b2-4914-9424-54a20d5a4a00/webBannerUri",
+                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/56d593e4-b7b2-4914-9424-54a20d5a4a00/mobileBannerUri",
                 "projectUrl": "https://www.fxhash.xyz",
                 "description": "Open generative art NFT platform on Tezos"
             },
@@ -116,18 +115,6 @@
                 "mobileBannerUri": "",
                 "projectUrl": "https://www.8bidou.com/",
                 "description": "The on-chain bitmap minter & marketplace"
-            },
-            {
-                "title": "Rarible",
-                "categories": [
-                    "marketplace"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/rarible/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "",
-                "mobileBannerUri": "",
-                "projectUrl": "https://rarible.com/",
-                "description": "Aggregated NFT marketplace with rewards"
             }
         ],
         "title": "Marketplaces"
@@ -193,6 +180,30 @@
                 "mobileBannerUri": "",
                 "projectUrl": "https://youves.com/",
                 "description": "Your tool on Tezos for asset creation and management"
+            },
+            {
+                "title": "tezfin",
+                "categories": [
+                    "exchange"
+                ],
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/51ba068e-7114-402b-fcd5-9b7420872d00/raw",
+                "wideLogoUri": "",
+                "webBannerUri": "",
+                "mobileBannerUri": "",
+                "projectUrl": "https://tezos.finance/",
+                "description": "On-chain Savings & Loan on Tezos Blockchain"
+            },
+            {
+                "title": "Yupana",
+                "categories": [
+                    "exchange"
+                ],
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/2ff29e44-b5c1-4564-edea-cff666648d00/raw",
+                "wideLogoUri": "",
+                "webBannerUri": "",
+                "mobileBannerUri": "",
+                "projectUrl": "https://yupana.finance/",
+                "description": "The first open-source and non-custodial lending protocol on Tezos"
             }
         ],
         "title": "DeFi"
