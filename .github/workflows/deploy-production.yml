@@ -8,10 +8,27 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     name: Deploy
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Run tests
+        id: run-tests
+        run: yarn test
+
       - uses: actions/checkout@v3
       - name: Deploy app
+        if: success()
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}

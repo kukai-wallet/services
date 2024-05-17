@@ -1,7 +1,5 @@
 import { ROUTES } from "../../router"
 
-const BASE_PATH = ROUTES.ONBOARDING_DISCOVER_ASSETS
-
 export const REMAP: Record<string, string> = {
     contract: 'contractAddresses',
     contractAddress: 'contractAddresses',
@@ -18,7 +16,7 @@ const ASSETS = [
 
 export async function handleAssets(request: Request): Promise<Response> {
     const { pathname } = new URL(request.url)
-    const assetIndex = pathname.substring(BASE_PATH.length - 1)
+    const assetIndex = pathname.substring(ROUTES.ONBOARDING_DISCOVER_ASSETS.length - 1)
 
     const index = Number(assetIndex)
 
