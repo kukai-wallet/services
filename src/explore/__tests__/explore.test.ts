@@ -3,6 +3,11 @@ import { describe, expect, it } from "vitest";
 import { VERSIONS } from "../../utils/versioning";
 import worker from "../../worker";
 import { Env } from "../../../worker-configuration";
+import crypto from 'crypto'
+
+const DEV_ENV = {
+    PRIVATE_KEY: crypto.randomBytes(64).toString('hex')
+} as unknown as Env
 
 const LOCAL_BASE_URL = 'http://localhost:8787'
 const SERVICES_BASE_URL = 'https://services.kukai.app'
@@ -19,7 +24,7 @@ describe("compares explore to production", () => {
             const externalRequest = fetch(`${SERVICES_BASE_URL}${endpoint}`)
 
             const ctx = createExecutionContext()
-            const localResponse = await worker.fetch(localRequest, env as Env, ctx)
+            const localResponse = await worker.fetch(localRequest, DEV_ENV, ctx)
             const externalResponse = await externalRequest
             await waitOnExecutionContext(ctx)
 
