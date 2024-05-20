@@ -24,6 +24,12 @@ export function getNetwork(url: string) {
         : NETWORK.MAINNET
 }
 
+export function getVersion(rawUrl: string) {
+    const url = rawUrl.endsWith("/") ? rawUrl.slice(0, -1) : rawUrl
+    const paths = url.split("/")
+    return `/${paths[paths.length - 2]}/` as VERSIONS
+}
+
 export function makeResponsePayload(payload: any, version: VERSIONS, env: Env, requestUrl: string) {
     if (version === VERSIONS.V1) {
         return payload

@@ -1,6 +1,6 @@
 import { Env } from '../../worker-configuration'
 import { getParams } from '../utils/param-utils'
-import { VERSIONS, makeResponsePayload } from '../utils/versioning'
+import { VERSIONS, getNetwork, getVersion, makeResponsePayload } from '../utils/versioning'
 import { Dataset } from "./storage/dataset"
 
 const ArrayTypes = new Set(['contractAddresses', 'discover.category'])
@@ -19,10 +19,12 @@ const HEADERS = {
 }
 
 export async function handleExpore(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
+    const network = getNetwork(request.url)
+    const version = getVersion(request.url)
+
     try {
         const params = getParams(request.url)
-        const version = request.url.includes(VERSIONS.V2) ? VERSIONS.V2 : VERSIONS.V1
-        const dataset = new Dataset({ version })
+        const dataset = new Dataset({ version, network })
 
         delete params.encode
         const paramKeys = Object.keys(params)

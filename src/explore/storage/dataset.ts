@@ -1,18 +1,21 @@
-import { VERSIONS } from '../../utils/versioning'
-import ContractAliasesGhostnet from './contracts-ghostnet.json'
-import ContractAliases from './contracts.json'
+import { NETWORK, VERSIONS } from '../../utils/versioning'
+import ContractAliasesGhostnet from './v4.ghostnet.json'
+import ContractAliasesMainnet from './v4.mainnet.json'
 import environment from './environments.json'
 
 interface props {
     version: VERSIONS
+    network: NETWORK
 }
 export class Dataset {
-    private storageMainnet = Object.values(ContractAliases)
+    private storageMainnet = Object.values(ContractAliasesMainnet)
     private storageGhostnet = Object.values(ContractAliasesGhostnet)
     private version = VERSIONS.V1
+    private network = NETWORK.MAINNET
 
-    constructor({ version }: props) {
+    constructor({ version, network }: props) {
         this.version = version
+        this.network = network
     }
 
     addFilter(filter: (value: any) => any) {
@@ -22,8 +25,12 @@ export class Dataset {
     }
 
     getSnapshot() {
-        return this.version === VERSIONS.V2
-            ? JSON.stringify({
+        if (this.version === VERSIONS.V1) {
+            return JSON.stringify(this.storageMainnet)
+        }
+
+        if (this.version === VERSIONS.V2) {
+            return JSON.stringify({
                 environment: {
                     mainnet: {
                         ...environment.mainnet,
@@ -35,6 +42,11 @@ export class Dataset {
                     }
                 }
             })
-            : JSON.stringify(this.storageMainnet)
+        }
+
+        // else VERSIONS.V3+
+        return this.network === NETWORK.MAINNET
+            ? JSON.stringify({ ...environment.mainnet, contractAliases: this.storageMainnet })
+            : JSON.stringify({ ...environment.ghostnet, contractAliases: this.storageGhostnet })
     }
 }

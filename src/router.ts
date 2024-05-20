@@ -14,6 +14,7 @@ export enum ROUTES {
 
 	EXPLORE = '/v1/explore',
 	EXPLORE_V2 = '/v2/explore',
+	EXPLORE_V4 = '/v4/explore',
 
 	ONBOARDING_DISCOVER_ASSETS = '/v4/onboarding/discover/assets/*',
 
@@ -31,6 +32,7 @@ router.get(ROUTES.DISCOVER_V4, handleDiscover as unknown as RouteHandler)
 
 router.get(ROUTES.EXPLORE, handleExpore as unknown as RouteHandler)
 router.get(ROUTES.EXPLORE_V2, handleExpore as unknown as RouteHandler)
+router.get(ROUTES.EXPLORE_V4, handleExpore as unknown as RouteHandler)
 
 router.get(ROUTES.ONBOARDING_DISCOVER_ASSETS, handleAssets as unknown as RouteHandler)
 
