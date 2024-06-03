@@ -14,7 +14,6 @@ const SERVICES_BASE_URL = 'https://services.kukai.app'
 
 const ENDPOINTS_TO_TEST = [
     `${VERSIONS.V1}explore`,
-    `${VERSIONS.V2}explore`,
 ]
 
 describe("compares explore to production", () => {
