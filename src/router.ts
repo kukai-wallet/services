@@ -1,5 +1,6 @@
 import { RouteHandler, Router } from 'itty-router';
 import { handleDiscover } from './discover/handle-discover';
+import { handleEvents } from './events/handle-events';
 import { handleExpore } from './explore/handle-explore';
 import { handleMetadata } from './metadata/handle-metadata';
 import { handleAssets } from './onboarding/discover/handle-assets';
@@ -21,6 +22,8 @@ export enum ROUTES {
 	METADATA = '/v1/metadata/*',
 	PROXY = '/v1/proxy',
 	VERSION = '/v1/version',
+
+	EVENTS = '/v1/events',
 }
 
 const router = Router();
@@ -39,6 +42,8 @@ router.get(ROUTES.ONBOARDING_DISCOVER_ASSETS, handleAssets as unknown as RouteHa
 router.get(ROUTES.METADATA, handleMetadata as unknown as RouteHandler)
 router.get(ROUTES.PROXY, handleProxy as unknown as RouteHandler)
 router.get(ROUTES.VERSION, handleVersion as unknown as RouteHandler)
+
+router.get(ROUTES.EVENTS, handleEvents as unknown as RouteHandler)
 
 router.all('*', () => new Response('Not Found.', { status: 404 }))
 

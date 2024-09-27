@@ -5,6 +5,11 @@ account_id = "367c5b9e9167fafdf4399c87280e0222"
 compatibility_flags = [ "nodejs_compat" ]
 keep_bindings = [ "plain_text" ]
 
+[[kv_namespaces]] 
+binding = "EVENTS"
+id = "21597de8ef20463ab9b2ac167a4f3553"
+preview_id = "262be040e83142458669f91cfe130e75"	
+
 [env.dev]
 vars = { ENVIRONMENT = "dev" }
 

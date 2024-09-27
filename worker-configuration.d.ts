@@ -7,4 +7,5 @@ export enum ENVIRONMENT_TAG {
 export interface Env {
 	ENVIRONMENT: ENVIRONMENT_TAG
 	KV_STORAGE: KVNamespace
+	EVENTS: KVNamespace
 }
