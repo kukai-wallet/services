@@ -1,5 +1,11 @@
 import { Env } from "../../worker-configuration"
 
+const HEADERS = {
+	'Access-Control-Allow-Origin': '*',
+	'Cache-Control': 'no-store, no-cache',
+	'Expires': '0'
+}
+
 export async function handleEvents(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
 	const url = new URL(request.url)
 
@@ -23,6 +29,6 @@ export async function handleEvents(request: Request, env: Env, _ctx: ExecutionCo
 		event_id: eventId
 	}))
 
-	return new Response('ok', { status: 200 });
+	return new Response('ok', { status: 200, headers: HEADERS });
 }
 
