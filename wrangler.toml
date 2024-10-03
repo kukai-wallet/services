@@ -28,5 +28,5 @@ routes = [
 	{ pattern = "services.ghostnet.kukai.app", custom_domain = true }
 ]
 kv_namespaces = [
-	{ binding = "EVENTS", id = "21597de8ef20463ab9b2ac167a4f3553", preview_id = "262be040e83142458669f91cfe130e75" }
+	{ binding = "EVENTS", id = "21597de8ef20463ab9b2ac167a4f3553", preview_id = "21597de8ef20463ab9b2ac167a4f3553" }
 ]

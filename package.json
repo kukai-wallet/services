@@ -5,6 +5,7 @@
   "scripts": {
     "deploy": "wrangler publish",
     "dev": "wrangler dev --env dev",
+    "prod": "wrangler dev --env production",
     "test": "vitest"
   },
   "devDependencies": {

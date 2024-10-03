@@ -10,6 +10,7 @@ export async function handleEvents(request: Request, env: Env, _ctx: ExecutionCo
 	const url = new URL(request.url)
 
 	const eventId = url.searchParams.get('eventId')
+	const data = Object.fromEntries(url.searchParams);
 
 	if (!eventId) {
 		return new Response("missing event id", { status: 400 })
@@ -26,9 +27,8 @@ export async function handleEvents(request: Request, env: Env, _ctx: ExecutionCo
 		user_agent: request.headers.get('User-Agent'),
 		timestamp,
 		domain,
-		event_id: eventId
+		...data,
 	}))
 
 	return new Response('ok', { status: 200, headers: HEADERS });
 }
-
