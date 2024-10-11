@@ -1,7 +1,7 @@
 import { Env } from "../../worker-configuration";
 
 export async function handleEvents(request: Request, env: Env) {
-    const prefix = 'event/';
+    const prefix = 'event/app-stake-a';
 
     const listResult = await env.EVENTS.list({ prefix });
 
