@@ -295,10 +295,11 @@
         "name": "BattleTabs",
         "contractAddresses": [
             "KT1J13kB3GQBuu9VJv5jsuCXJf6jSQoJjkPf",
-            "KT1FuNeqUjHHmFDtNA8V9hVgmV68E1JKh1sw"
+            "KT1FuNeqUjHHmFDtNA8V9hVgmV68E1JKh1sw",
+            "KT1PJjUgQdfXPi9rL5cjfXQhhv8ZRLomQQmL"
         ],
         "description": "Battletabs' Digital Collectibles, powered by Tezos and brought to you by Tezos ecosystem companies.",
-        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/433fc989-a276-4cf5-88c0-c8370e47ad00/raw"
+        "thumbnailImageUrl": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/b31bd801-4caa-4454-f9c7-b5f1ee77dc00/raw"
     },
     "QuipuSwap": {
         "name": "QuipuSwap",
