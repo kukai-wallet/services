@@ -5,6 +5,6 @@
     },
     "android": {
         "required": "1.0.0",
-        "recommended": "1.0.0"
+        "recommended": "1.0.1"
     }
 }
