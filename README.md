@@ -3,16 +3,16 @@
 ## Installation
 
 1. Run `yarn` to install dependencies ([install yarn if not available](https://yarnpkg.com/getting-started/install)) 
-2. Run `yarn dev` to start a dev server
+2. Run `yarn dev` to start a dev server, or `yarn prod` to start a prod server (requires wrangler/cloudflare credentials)
 
 ## Deploy
 
-Deployments are handled automatically with github actions (see the pipelines in `.github/workflows/`). 
+Run `yarn deploy` to deploy to production, or `yarn deploy --env staging` to deploy using the staging environment. 
+All deployments require wrangler/cloudflare credentials.
 
-Pushing to the `main` branch will update production while pushing to `staging` will update staging:
 ```perl
-push to /main    → updates services.kukai.app
-push to /staging → updates staging.services.kukai.app
+production → services.kukai.app
+staging    → staging.services.kukai.app
 ```
 
 ## Modify
