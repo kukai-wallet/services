@@ -1,7 +1,7 @@
 {
     "ios": {
-        "required": "1.0.0.190",
-        "recommended": "1.0.0.191"
+        "required": "1.1.1.350",
+        "recommended": "1.1.1.351"
     },
     "android": {
         "required": "1.0.0",
