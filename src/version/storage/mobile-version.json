@@ -4,7 +4,7 @@
         "recommended": "1.1.2.351"
     },
     "android": {
-        "required": "1.0.0",
-        "recommended": "1.0.1"
+        "required": "0.2.0",
+        "recommended": "0.2.0"
     }
 }
