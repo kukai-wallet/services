@@ -2,20 +2,6 @@
     {
         "items": [
             {
-                "title": "Manchester United",
-                "categories": [
-                    "sports",
-                    "collectibles"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/0fe4c96e-65bc-4bf5-8edc-531d6bc29c00/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "",
-                "mobileBannerUri": "",
-                "projectUrl": "http://collectibles.manutd.com",
-                "description": "Officially licensed Digital Collectibles, powered by Tezos",
-                "zoomDiscoverImg": true
-            },
-            {
                 "title": "McLaren Racing Digital Collectibles",
                 "categories": [
                     "sports",

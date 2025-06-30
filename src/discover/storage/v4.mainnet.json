@@ -2,19 +2,6 @@
     {
         "items": [
             {
-                "title": "Manchester United",
-                "categories": [
-                    "sports",
-                    "collectibles"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/c2e89483-7474-4ada-5764-418f26fd1900/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/webBannerUri",
-                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3f87e581-8018-4219-4a45-701b3d319300/mobileBannerUri",
-                "projectUrl": "http://collectibles.manutd.com",
-                "description": "Officially licensed Digital Collectibles, powered by Tezos"
-            },
-            {
                 "title": "McLaren Racing Digital Collectibles",
                 "categories": [
                     "sports",
@@ -394,19 +381,6 @@
     },
     {
         "items": [
-            {
-                "title": "Manchester United",
-                "categories": [
-                    "sports",
-                    "collectibles"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mufc/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "",
-                "mobileBannerUri": "",
-                "projectUrl": "http://collectibles.manutd.com",
-                "description": "Officially licensed Digital Collectibles, powered by Tezos"
-            },
             {
                 "title": "McLaren Racing Digital Collectibles",
                 "categories": [
