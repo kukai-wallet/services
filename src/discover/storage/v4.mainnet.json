@@ -15,28 +15,16 @@
                 "description": "McLaren Racing's officially licensed Digital Collectibles"
             },
             {
-                "title": "objkt",
+                "title": "Mooncakes",
                 "categories": [
-                    "marketplace"
+                    "collectibles"
                 ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/0d36c6e9-d85d-4c23-5252-0f3d7c037400/raw",
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/76180f46-12c0-4d04-ca11-f4f014b87700/raw",
                 "wideLogoUri": "",
-                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3c76a635-2d3d-4795-5a66-fb29f5881500/webBannerUri",
-                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3c76a635-2d3d-4795-5a66-fb29f5881500/mobileBannerUri",
-                "projectUrl": "https://objkt.com/",
-                "description": "The best Tezos NFTs all in one place"
-            },
-            {
-                "title": "fxhash",
-                "categories": [
-                    "marketplace"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/56d593e4-b7b2-4914-9424-54a20d5a4a00/webBannerUri",
-                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/56d593e4-b7b2-4914-9424-54a20d5a4a00/mobileBannerUri",
-                "projectUrl": "https://www.fxhash.xyz",
-                "description": "Open generative art NFT platform on Tezos"
+                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8b7e7eac-39b1-40a8-0aa8-a4f3104d0500/webBannerUri",
+                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/8b7e7eac-39b1-40a8-0aa8-a4f3104d0500/mobileBannerUri",
+                "projectUrl": "https://mooncakes.fun/",
+                "description": "Have fun exploring a galaxy of NFTs"
             }
         ],
         "title": "Featured"
@@ -54,18 +42,6 @@
                 "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/3c76a635-2d3d-4795-5a66-fb29f5881500/mobileBannerUri",
                 "projectUrl": "https://objkt.com/",
                 "description": "The best Tezos NFTs all in one place"
-            },
-            {
-                "title": "fxhash",
-                "categories": [
-                    "marketplace"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/56d593e4-b7b2-4914-9424-54a20d5a4a00/webBannerUri",
-                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/56d593e4-b7b2-4914-9424-54a20d5a4a00/mobileBannerUri",
-                "projectUrl": "https://www.fxhash.xyz",
-                "description": "Open generative art NFT platform on Tezos"
             },
             {
                 "title": "Teia",
@@ -90,6 +66,18 @@
                 "mobileBannerUri": "",
                 "projectUrl": "https://akaswap.com/",
                 "description": "akaSwap is a friendly, open and green NFT platform based on Tezos, everyone can easily create, trade, and collect various NFT from all over the world."
+            },
+            {
+                "title": "fxhash",
+                "categories": [
+                    "marketplace"
+                ],
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/fxhash/raw",
+                "wideLogoUri": "",
+                "webBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/56d593e4-b7b2-4914-9424-54a20d5a4a00/webBannerUri",
+                "mobileBannerUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/56d593e4-b7b2-4914-9424-54a20d5a4a00/mobileBannerUri",
+                "projectUrl": "https://www.fxhash.xyz",
+                "description": "Open generative art NFT platform on Tezos"
             },
             {
                 "title": "8bidou",
@@ -352,18 +340,6 @@
                 "description": "Humans are gone. Ottez have moved in. 4,007 generative, collectible PFP otters have taken over Earth."
             },
             {
-                "title": "Neonz",
-                "categories": [
-                    "collectibles"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/neonz/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "",
-                "mobileBannerUri": "",
-                "projectUrl": "https://www.neonz.xyz/",
-                "description": "NEONZ is the portfolio website for Australian Artist Sutu. Sutu is an XR Artist, Futurist, and Co-Founder of the AR company, EyeJack."
-            },
-            {
                 "title": "ZIGGURATS",
                 "categories": [
                     "collectibles",
@@ -375,24 +351,18 @@
                 "mobileBannerUri": "",
                 "projectUrl": "https://ziggurats.xyz",
                 "description": "Generative mixtape + art by Mike Shinoda"
-            }
-        ],
-        "title": "PFP/Collectibles"
-    },
-    {
-        "items": [
+            },
             {
-                "title": "McLaren Racing Digital Collectibles",
+                "title": "Neonz",
                 "categories": [
-                    "sports",
                     "collectibles"
                 ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/mclaren-thumbnail2/raw",
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/neonz/raw",
                 "wideLogoUri": "",
                 "webBannerUri": "",
                 "mobileBannerUri": "",
-                "projectUrl": "https://collectibles.mclaren.com",
-                "description": "McLaren Racing's officially licensed Digital Collectibles"
+                "projectUrl": "https://www.neonz.xyz/",
+                "description": "NEONZ is the portfolio website for Australian Artist Sutu. Sutu is an XR Artist, Futurist, and Co-Founder of the AR company, EyeJack."
             },
             {
                 "title": "V.Hive by Vitality",
@@ -407,37 +377,7 @@
                 "description": "Hive aims to be the first support-to-earn system in esports for the widest audience with a free and easy to understand platform, opening new fan experience opportunities."
             }
         ],
-        "title": "Sports"
-    },
-    {
-        "items": [
-            {
-                "title": "OneOf",
-                "categories": [
-                    "music"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/e6e822fa-e238-4972-e7d9-44321e6d2000/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "",
-                "mobileBannerUri": "",
-                "projectUrl": "https://www.oneof.com/marketplacehome",
-                "description": "OneOf is the mass-consumer Web3 company connecting the next 100M non-crypto-native fans to iconic brands, artists, and athletes. OneOf technology enables global brands and enterprises to reimagine commerce, loyalty and engagement, allowing consumers to seamlessly collect or trade digital assets with no prior crypto expertise. Deeply committed to a sustainable and inclusive blockchain future, minting digital assets on OneOf&#039;s platform uses up to 2 million times less energy than previous generation proof-of-work networks, and costs up to 99% less in gas fees. A leader in diversity, over 80% of the collections curated by OneOf come from minority or female creators."
-            },
-            {
-                "title": "ZIGGURATS",
-                "categories": [
-                    "collectibles",
-                    "music"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/ziggurats/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "",
-                "mobileBannerUri": "",
-                "projectUrl": "https://ziggurats.xyz",
-                "description": "Generative mixtape + art by Mike Shinoda"
-            }
-        ],
-        "title": "Music"
+        "title": "PFP/Collectibles"
     },
     {
         "items": [
