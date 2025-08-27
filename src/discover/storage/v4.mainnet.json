@@ -121,18 +121,6 @@
                 "description": "A user-friendly, open source, & decentralized ecosystem built for you"
             },
             {
-                "title": "Crunchy",
-                "categories": [
-                    "exchange"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/956d2e2c-31be-4b7d-7d3d-95e61084d500/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "",
-                "mobileBannerUri": "",
-                "projectUrl": "https://crunchy.network/#/",
-                "description": "View charts and price data on cryptocurrencies in the Tezos ecosystem"
-            },
-            {
                 "title": "3Route",
                 "categories": [
                     "exchange"
@@ -145,18 +133,6 @@
                 "description": "The Next Gen DEX Aggregator in Tezos. Use liquidity from most popular Tezos DEXes from one interface."
             },
             {
-                "title": "youves",
-                "categories": [
-                    "exchange"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/bdd48efa-6cfc-4451-8941-0314fbda9500/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "",
-                "mobileBannerUri": "",
-                "projectUrl": "https://youves.com/",
-                "description": "Your tool on Tezos for asset creation and management"
-            },
-            {
                 "title": "tezfin",
                 "categories": [
                     "exchange"
@@ -167,6 +143,30 @@
                 "mobileBannerUri": "",
                 "projectUrl": "https://tezos.finance/",
                 "description": "On-chain Savings & Loan on Tezos Blockchain"
+            },
+            {
+                "title": "Crunchy",
+                "categories": [
+                    "exchange"
+                ],
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/956d2e2c-31be-4b7d-7d3d-95e61084d500/raw",
+                "wideLogoUri": "",
+                "webBannerUri": "",
+                "mobileBannerUri": "",
+                "projectUrl": "https://crunchy.network/#/",
+                "description": "View charts and price data on cryptocurrencies in the Tezos ecosystem"
+            },
+            {
+                "title": "youves",
+                "categories": [
+                    "exchange"
+                ],
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/bdd48efa-6cfc-4451-8941-0314fbda9500/raw",
+                "wideLogoUri": "",
+                "webBannerUri": "",
+                "mobileBannerUri": "",
+                "projectUrl": "https://youves.com/",
+                "description": "Your tool on Tezos for asset creation and management"
             },
             {
                 "title": "Yupana",
@@ -185,30 +185,6 @@
     },
     {
         "items": [
-            {
-                "title": "Dogami",
-                "categories": [
-                    "collectibles"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/dogami-thumbnail/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "",
-                "mobileBannerUri": "",
-                "projectUrl": "https://dogami.com",
-                "description": "Raise unique virtual NFT avatars on mobile"
-            },
-            {
-                "title": "Tezotopia",
-                "categories": [
-                    "collectibles"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/tezotopia/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "",
-                "mobileBannerUri": "",
-                "projectUrl": "https://app.tezotopia.com/marketplace/artifacts",
-                "description": "Battle, earn, win prizes plus NFT yield farming"
-            },
             {
                 "title": "Mooncakes",
                 "categories": [
@@ -232,6 +208,30 @@
                 "mobileBannerUri": "",
                 "projectUrl": "https://www.playstables.io/",
                 "description": "Join the exciting world of Stables, a horse fantasy game powered by NFT technology and real racehorses"
+            },
+            {
+                "title": "Dogami",
+                "categories": [
+                    "collectibles"
+                ],
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/dogami-thumbnail/raw",
+                "wideLogoUri": "",
+                "webBannerUri": "",
+                "mobileBannerUri": "",
+                "projectUrl": "https://dogami.com",
+                "description": "Raise unique virtual NFT avatars on mobile"
+            },
+            {
+                "title": "Tezotopia",
+                "categories": [
+                    "collectibles"
+                ],
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/assets/img/alias/tezotopia/raw",
+                "wideLogoUri": "",
+                "webBannerUri": "",
+                "mobileBannerUri": "",
+                "projectUrl": "https://app.tezotopia.com/marketplace/artifacts",
+                "description": "Battle, earn, win prizes plus NFT yield farming"
             },
             {
                 "title": "V.Hive by Vitality",
