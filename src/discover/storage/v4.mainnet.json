@@ -109,18 +109,6 @@
                 "description": "A decentralized exchange on Tezos"
             },
             {
-                "title": "Plenty",
-                "categories": [
-                    "exchange"
-                ],
-                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/ed9bebf6-72aa-4d24-d19a-477ba44ae800/raw",
-                "wideLogoUri": "",
-                "webBannerUri": "",
-                "mobileBannerUri": "",
-                "projectUrl": "https://plenty.network/",
-                "description": "A user-friendly, open source, & decentralized ecosystem built for you"
-            },
-            {
                 "title": "3Route",
                 "categories": [
                     "exchange"
@@ -143,6 +131,18 @@
                 "mobileBannerUri": "",
                 "projectUrl": "https://tezos.finance/",
                 "description": "On-chain Savings & Loan on Tezos Blockchain"
+            },
+            {
+                "title": "Plenty",
+                "categories": [
+                    "exchange"
+                ],
+                "squareLogoUri": "https://imagedelivery.net/X6w5bi3ztwg4T4f6LG8s0Q/ed9bebf6-72aa-4d24-d19a-477ba44ae800/raw",
+                "wideLogoUri": "",
+                "webBannerUri": "",
+                "mobileBannerUri": "",
+                "projectUrl": "https://plenty.network/",
+                "description": "A user-friendly, open source, & decentralized ecosystem built for you"
             },
             {
                 "title": "Crunchy",
