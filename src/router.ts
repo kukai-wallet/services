@@ -7,6 +7,8 @@ import { handleMetadata } from './metadata/handle-metadata';
 import { handleAssets } from './onboarding/discover/handle-assets';
 import { handleProxy } from './proxy/handle-proxy';
 import { handleVersion } from './version/handle-version';
+import { handleTokenBalances } from './tokens/handle-balances';
+import { handleAccount } from './accounts/handle-account';
 
 export enum ROUTES {
 	DISCOVER = '/v1/discover',
@@ -26,6 +28,9 @@ export enum ROUTES {
 
 	EVENTS = '/v1/events',
 	EVENTS_LIST = '/v1/list-events',
+
+	TOKENS_BALANCES = '/v1/tokens/balances',
+	ACCOUNT = '/v1/accounts/:address',
 }
 
 const router = Router();
@@ -47,6 +52,9 @@ router.get(ROUTES.VERSION, handleVersion as unknown as RouteHandler)
 
 router.get(ROUTES.EVENTS, handleEvents as unknown as RouteHandler)
 // router.get(ROUTES.EVENTS_LIST, handleListEvents as unknown as RouteHandler)
+
+router.get(ROUTES.TOKENS_BALANCES, handleTokenBalances as unknown as RouteHandler)
+router.get(ROUTES.ACCOUNT, handleAccount as unknown as RouteHandler)
 
 router.all('*', () => new Response('Not Found.', { status: 404 }))
 
