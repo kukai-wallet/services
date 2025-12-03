@@ -24,7 +24,7 @@ export async function handleAccount(request: Request, env: Env, _ctx: ExecutionC
 	}
 
 	try {
-		const { balance, balanceHex } = await getNativeBalance(address, { apiKey: env.ALCHEMY_API_KEY, network: chain });
+		const { balance, balanceHex } = await getNativeBalance(address);
 
 		return new Response(
 			JSON.stringify({

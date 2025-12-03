@@ -1,6 +1,7 @@
 import { Env } from '../../worker-configuration';
 import { CHAINS, SUPPORTED_CHAINS } from '../constants/chains';
 import { BASE_HEADERS } from '../constants/request-utils';
+import { getNftsForOwner } from './handle-nfts';
 import { getEnrichedTokenBalances } from './token-utils';
 
 export async function handleTokenBalances(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
@@ -17,8 +18,12 @@ export async function handleTokenBalances(request: Request, env: Env, _ctx: Exec
 	}
 
 	try {
-		const result = await getEnrichedTokenBalances(account, { apiKey: env.ALCHEMY_API_KEY, network: chain });
-		return new Response(JSON.stringify(result), { status: 200, headers: { ...BASE_HEADERS, 'Cache-Control': 'public, max-age=60' } });
+		const [financialAssets, nfts] = await Promise.all([getEnrichedTokenBalances(account), getNftsForOwner(account)]);
+
+		return new Response(
+			JSON.stringify([...financialAssets, ...nfts]),
+			{ status: 200, headers: { ...BASE_HEADERS, 'Cache-Control': 'public, max-age=60' } }
+		);
 	} catch (error) {
 		return new Response(
 			JSON.stringify({
