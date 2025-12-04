@@ -4,6 +4,11 @@ compatibility_date = "2023-07-19"
 account_id = "367c5b9e9167fafdf4399c87280e0222"
 compatibility_flags = [ "nodejs_compat" ]
 
+[[durable_objects.bindings]]
+name = "WS_DURABLE_OBJECT"
+class_name = "WebSocketDurableObject"
+script_name = "services"
+
 
 [env.dev]
 vars = { ENVIRONMENT = "dev" }
